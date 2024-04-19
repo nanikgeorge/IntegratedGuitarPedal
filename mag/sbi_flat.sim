@@ -1,0 +1,9 @@
+| units: 500000 tech: sky130A format: MIT
+x a_n520_n2180# IN OUT VSS s=30240,1004 d=30240,1004 l=5190 w=0 x=-519 y=-2179 sky130_fd_pr__res_xhigh_po_0p35
+x IN VSS OUT VSS s=11600,516 d=11600,516 l=200 w=200 x=38 y=-1253 sky130_fd_pr__nfet_01v8
+x IN VDD OUT VDD s=11600,516 d=11600,516 l=200 w=200 x=54 y=-819 sky130_fd_pr__pfet_01v8
+R OUT 1420
+R IN 655
+R VDD 2832
+R VSS 1127
+R a_n520_n2180# 162286

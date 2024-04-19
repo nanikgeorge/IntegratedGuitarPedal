@@ -1,0 +1,7 @@
+currentOut 220 -979 m1
+inn 340 -1279 m1
+inp 80 -1279 m1
+out 640 -179 m1
+VDD 280 100 m1
+VSS 744 -1167 m1
+a_36_n1087# 36 -1086 ndif

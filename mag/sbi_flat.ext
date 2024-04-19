@@ -1,0 +1,29 @@
+timestamp 0
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__pfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__res_xhigh_po_5p73 l=l+32
+parameters sky130_fd_pr__res_xhigh_po_2p85 l=l+32
+parameters sky130_fd_pr__res_xhigh_po_1p41 l=l+32
+parameters sky130_fd_pr__res_xhigh_po_0p69 l=l+32
+parameters sky130_fd_pr__res_xhigh_po_0p35 l=l+32
+parameters sky130_fd_pr__res_xhigh_po l=l+32 w=w
+port "OUT" 2 320 -1160 380 -720 m1
+port "IN" 1 20 -1020 260 -860 m1
+port "VDD" 4 -100 -540 20 -440 m1
+port "VSS" 3 -140 -1460 -20 -1360 m1
+node "a_n520_n2180#" 162286 0 -520 -2180 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 397600 11500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "OUT" 1420 1019.35 320 -1160 m1 0 0 0 0 0 0 0 0 11600 516 11600 516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84884 3052 131708 3032 0 0 0 0 0 0 0 0 0 0
+node "IN" 655 1543.13 20 -1020 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127400 2074 0 0 74640 2960 112712 2972 0 0 0 0 0 0 0 0 0 0
+node "VDD" 2832 965.18 -100 -540 m1 0 0 0 0 228240 2000 0 0 47600 960 11600 516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 37072 1284 64800 1720 0 0 0 0 0 0 0 0 0 0
+substrate "VSS" 0 0 -140 -1460 m1 0 0 0 0 0 0 0 0 11600 516 58800 1120 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45072 1444 80276 1932 0 0 0 0 0 0 0 0 0 0
+cap "VDD" "OUT" 119.038
+cap "VDD" "IN" 330.567
+cap "IN" "OUT" 156.189
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -520 -2180 -519 -2179 l=5190 "VSS" "a_n520_n2180#" 0 0 "IN" 70 30240,1004 "OUT" 70 30240,1004
+device msubckt sky130_fd_pr__nfet_01v8 38 -1254 39 -1253 l=200 w=200 "VSS" "IN" 400 0 "VSS" 200 11600,516 "OUT" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 54 -820 55 -819 l=200 w=200 "VDD" "IN" 400 0 "VDD" 200 11600,516 "OUT" 200 11600,516

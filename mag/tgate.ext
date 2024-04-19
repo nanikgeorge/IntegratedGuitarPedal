@@ -1,0 +1,53 @@
+timestamp 1713396527
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__pfet_01v8_UNVJW6 sky130_fd_pr__pfet_01v8_UNVJW6_0 1 0 372 0 1 789
+use sky130_fd_pr__nfet_01v8_7HRXTK sky130_fd_pr__nfet_01v8_7HRXTK_0 1 0 372 0 1 226
+port "CTRL" 3 -380 -180 160 40 m2
+port "OUT" 2 -380 160 -60 380 m2
+port "IN" 1 -380 640 -60 860 m2
+port "CTRLB" 4 -380 980 160 1200 m2
+node "CTRL" 1 724.215 -380 -180 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138000 1520 303600 3200 0 0 0 0 0 0 0 0
+node "OUT" 3 683.556 -380 160 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 214000 3920 303600 3200 0 0 0 0 0 0 0 0
+node "IN" 2 438.189 -380 640 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 114400 1920 303600 3200 0 0 0 0 0 0 0 0
+node "CTRLB" 1 744.63 -380 980 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138000 1520 303600 3200 0 0 0 0 0 0 0 0
+node "li_n50_n50#" 198 718.88 -50 -50 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 195000 3700 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n50_600#" 386 1048.47 -50 600 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255700 5740 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "li_n50_n50#" "OUT" 443.292
+cap "IN" "li_n50_600#" 497.384
+cap "CTRL" "li_n50_600#" 24.7805
+cap "li_n50_n50#" "IN" 2.44138
+cap "CTRLB" "li_n50_600#" 276.737
+cap "OUT" "IN" 672.62
+cap "CTRL" "li_n50_n50#" 345.107
+cap "CTRL" "OUT" 584.087
+cap "CTRLB" "OUT" 80.4786
+cap "li_n50_n50#" "li_n50_600#" 139.045
+cap "OUT" "li_n50_600#" 369.981
+cap "CTRLB" "IN" 531.045
+cap "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_229_n69#" "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_n29_n69#" 63.755
+cap "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_29_n157#" "sky130_fd_pr__pfet_01v8_UNVJW6_0/a_29_n162#" 26.2295
+cap "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_229_n69#" "sky130_fd_pr__pfet_01v8_UNVJW6_0/a_29_n162#" 34.6818
+cap "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_229_n69#" "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_29_n157#" 213.257
+cap "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_n29_n69#" "sky130_fd_pr__pfet_01v8_UNVJW6_0/a_29_n162#" 288.686
+cap "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_29_n157#" "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_n29_n69#" 197.613
+merge "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_229_n69#" "sky130_fd_pr__pfet_01v8_UNVJW6_0/VSUBS" -969.393 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -54128 -3524 -27324 -1464 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_UNVJW6_0/VSUBS" "VSUBS"
+merge "VSUBS" "sky130_fd_pr__pfet_01v8_UNVJW6_0/a_n29_n136#"
+merge "sky130_fd_pr__pfet_01v8_UNVJW6_0/a_n29_n136#" "OUT"
+merge "OUT" "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_n287_n69#"
+merge "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_n287_n69#" "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_n389_n243#"
+merge "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_n389_n243#" "li_n50_n50#"
+merge "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_n29_n69#" "sky130_fd_pr__pfet_01v8_UNVJW6_0/a_229_n136#" -1431.39 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64226 -4186 -18400 -984 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_UNVJW6_0/a_229_n136#" "IN"
+merge "IN" "sky130_fd_pr__pfet_01v8_UNVJW6_0/a_n287_n136#"
+merge "sky130_fd_pr__pfet_01v8_UNVJW6_0/a_n287_n136#" "sky130_fd_pr__pfet_01v8_UNVJW6_0/w_n425_n284#"
+merge "sky130_fd_pr__pfet_01v8_UNVJW6_0/w_n425_n284#" "li_n50_600#"
+merge "sky130_fd_pr__pfet_01v8_UNVJW6_0/a_29_n162#" "sky130_fd_pr__pfet_01v8_UNVJW6_0/a_n229_n162#" -279.113 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15360 -928 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_UNVJW6_0/a_n229_n162#" "CTRLB"
+merge "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_29_n157#" "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_n229_n157#" -279.794 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15744 -932 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__nfet_01v8_7HRXTK_0/a_n229_n157#" "CTRL"

@@ -1,0 +1,60 @@
+* NGSPICE file created from simpleOpamp_flat.ext - technology: sky130A
+
+.subckt simpleOpamp out VDD inp inn currentOut VSS
+X0 currentOut.t0 inp.t0 a_36_n1087# VSS.t0 sky130_fd_pr__nfet_01v8 ad=0.725 pd=5.29 as=1.45 ps=10.58 w=5 l=1
+X1 VDD.t3 a_36_n1087# a_36_n1087# VDD.t2 sky130_fd_pr__pfet_01v8 ad=0.725 pd=5.29 as=1.45 ps=10.58 w=5 l=1
+X2 out.t0 a_36_n1087# VDD.t1 VDD.t0 sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.58 as=0.725 ps=5.29 w=5 l=1
+X3 out.t1 inn.t0 currentOut.t1 VSS.t1 sky130_fd_pr__nfet_01v8 ad=1.45 pd=10.58 as=0.725 ps=5.29 w=5 l=1
+R0 inp.n0 inp.t0 214.405
+R1 inp.n1 inp 0.556056
+R2 inp.n0 inp 0.239097
+R3 inp.n1 inp.n0 0.0750342
+R4 inp inp.n1 0.0144752
+R5 currentOut currentOut.n0 14.1247
+R6 currentOut.n0 currentOut.t1 3.4805
+R7 currentOut.n0 currentOut.t0 3.4805
+R8 VSS VSS.t1 1595.23
+R9 VSS.t1 VSS.t0 886.875
+R10 VDD.n0 VDD.t0 90.8701
+R11 VDD.n0 VDD.t2 86.7396
+R12 VDD.n3 VDD.n0 54.2063
+R13 VDD.n2 VDD.n1 42.4505
+R14 VDD.n1 VDD.t1 5.7135
+R15 VDD.n1 VDD.t3 5.7135
+R16 VDD.n3 VDD.n2 0.8755
+R17 VDD.n2 VDD 0.78175
+R18 VDD VDD.n3 0.237107
+R19 out.n0 out.t0 49.3324
+R20 out out.t1 18.465
+R21 out.n1 out.n0 0.688
+R22 out.n0 out 0.307877
+R23 out out.n1 0.2505
+R24 out.n1 out 0.0824672
+R25 inn.n0 inn.t0 214.405
+R26 inn.n1 inn 0.6255
+R27 inn.n0 inn 0.237534
+R28 inn.n1 inn.n0 0.0750342
+R29 inn inn.n1 0.0129224
+C0 inp inn 0.120924f
+C1 a_36_n1087# VDD 1.11207f
+C2 a_36_n1087# currentOut 0.376722f
+C3 a_36_n1087# inn 0.094924f
+C4 out inp 7.15e-19
+C5 out a_36_n1087# 0.153551f
+C6 a_36_n1087# inp 0.190231f
+C7 VDD currentOut 0.005581f
+C8 VDD inn 7.8e-19
+C9 inn currentOut 0.182698f
+C10 out VDD 0.34289f
+C11 out currentOut 0.323063f
+C12 out inn 0.094943f
+C13 VDD inp 7.8e-19
+C14 inp currentOut 0.184794f
+C15 currentOut VSS 0.152921f
+C16 inn VSS 0.467488f
+C17 inp VSS 0.460603f
+C18 out VSS 1.12935f
+C19 VDD VSS 2.89276f
+C20 a_36_n1087# VSS 1.45799f
+.ends
+

@@ -1,0 +1,55 @@
+* NGSPICE file created from simpleOpamp.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_8GUTWW a_n158_n464# a_n100_n561# a_100_n464# w_n194_n564#
++ VSUBS
+X0 a_100_n464# a_n100_n561# a_n158_n464# w_n194_n564# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=1
+C0 a_100_n464# a_n158_n464# 0.273876f
+C1 w_n194_n564# a_n100_n561# 0.119465f
+C2 a_100_n464# w_n194_n564# 0.01763f
+C3 w_n194_n564# a_n158_n464# 0.01763f
+C4 a_100_n464# a_n100_n561# 0.112293f
+C5 a_n158_n464# a_n100_n561# 0.112293f
+C6 a_100_n464# VSUBS 0.487586f
+C7 a_n158_n464# VSUBS 0.487586f
+C8 a_n100_n561# VSUBS 0.389776f
+C9 w_n194_n564# VSUBS 1.35257f
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_TFM3AL a_100_n469# a_n158_n469# a_n100_n557# VSUBS
+X0 a_100_n469# a_n100_n557# a_n158_n469# VSUBS sky130_fd_pr__nfet_01v8 ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=1
+C0 a_n100_n557# a_n158_n469# 0.112293f
+C1 a_n100_n557# a_100_n469# 0.112293f
+C2 a_100_n469# a_n158_n469# 0.273876f
+C3 a_100_n469# VSUBS 0.505216f
+C4 a_n158_n469# VSUBS 0.505216f
+C5 a_n100_n557# VSUBS 0.499566f
+.ends
+
+.subckt simpleOpamp VDD inp inn currentOut VSS out
+Xsky130_fd_pr__pfet_01v8_8GUTWW_0 VDD m1_38_n1080# out VDD VSS sky130_fd_pr__pfet_01v8_8GUTWW
+Xsky130_fd_pr__pfet_01v8_8GUTWW_1 m1_38_n1080# m1_38_n1080# VDD VDD VSS sky130_fd_pr__pfet_01v8_8GUTWW
+Xsky130_fd_pr__nfet_01v8_TFM3AL_0 out currentOut inn VSS sky130_fd_pr__nfet_01v8_TFM3AL
+Xsky130_fd_pr__nfet_01v8_TFM3AL_1 currentOut m1_38_n1080# inp VSS sky130_fd_pr__nfet_01v8_TFM3AL
+C0 inn currentOut 0.070405f
+C1 inn inp 0.120924f
+C2 inp currentOut 0.072501f
+C3 VDD inn 7.8e-19
+C4 inn m1_38_n1080# 0.094924f
+C5 VDD currentOut 0.005581f
+C6 m1_38_n1080# currentOut 0.102846f
+C7 inn out -0.01665f
+C8 VDD inp 7.8e-19
+C9 inp m1_38_n1080# 0.077938f
+C10 out currentOut 0.049205f
+C11 inp out 8.68e-19
+C12 VDD m1_38_n1080# 0.356092f
+C13 VDD out 0.058456f
+C14 out m1_38_n1080# 0.056516f
+C15 currentOut VSS 0.152917f
+C16 inp VSS 0.460602f
+C17 inn VSS 0.467488f
+C18 m1_38_n1080# VSS 1.4574f
+C19 VDD VSS 2.892761f
+C20 out VSS 1.322785f
+.ends
+

@@ -1,0 +1,78 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1713319136
+<< nwell >>
+rect -20 1120 660 1380
+<< psubdiff >>
+rect 750 -130 1072 -106
+rect 750 -1074 1072 -1050
+<< nsubdiff >>
+rect 40 1300 600 1340
+rect 40 1200 80 1300
+rect 560 1200 600 1300
+rect 40 1160 600 1200
+<< psubdiffcont >>
+rect 750 -1050 1072 -130
+<< nsubdiffcont >>
+rect 80 1200 560 1300
+<< locali >>
+rect 60 1300 580 1320
+rect 60 1200 80 1300
+rect 560 1200 580 1300
+rect 60 1180 580 1200
+rect 750 -130 1072 -114
+rect 750 -1066 1072 -1050
+<< viali >>
+rect 80 1200 560 1300
+rect 820 -1040 980 -140
+<< metal1 >>
+rect 40 1300 600 1340
+rect 40 1200 80 1300
+rect 560 1200 600 1300
+rect 40 1160 600 1200
+rect 38 60 80 1120
+rect 280 100 360 1160
+rect 560 100 680 1100
+rect 38 -20 560 60
+rect 38 -22 302 -20
+rect 38 -1080 80 -22
+rect 600 -80 680 100
+rect 220 -980 420 -220
+rect 560 -1080 680 -80
+rect 744 -140 1116 -18
+rect 744 -1040 820 -140
+rect 980 -1040 1116 -140
+rect 80 -1280 300 -1120
+rect 340 -1280 560 -1120
+rect 744 -1168 1116 -1040
+use sky130_fd_pr__nfet_01v8_TFM3AL  sky130_fd_pr__nfet_01v8_TFM3AL_0
+timestamp 1713312949
+transform 1 0 452 0 1 -618
+box -158 -557 158 557
+use sky130_fd_pr__nfet_01v8_TFM3AL  sky130_fd_pr__nfet_01v8_TFM3AL_1
+timestamp 1713312949
+transform 1 0 194 0 1 -618
+box -158 -557 158 557
+use sky130_fd_pr__pfet_01v8_8GUTWW  sky130_fd_pr__pfet_01v8_8GUTWW_0
+timestamp 1713312949
+transform 1 0 452 0 1 564
+box -194 -564 194 598
+use sky130_fd_pr__pfet_01v8_8GUTWW  sky130_fd_pr__pfet_01v8_8GUTWW_1
+timestamp 1713312949
+transform 1 0 194 0 1 564
+box -194 -564 194 598
+<< labels >>
+flabel metal1 220 -980 420 -220 0 FreeSans 160 0 0 0 currentOut
+port 5 nsew
+flabel metal1 744 -1168 1116 -18 0 FreeSans 160 0 0 0 VSS
+port 6 nsew
+flabel metal1 280 100 360 1200 0 FreeSans 160 0 0 0 VDD
+port 2 nsew
+flabel metal1 80 -1280 300 -1120 0 FreeSans 160 0 0 0 inp
+port 3 nsew
+flabel metal1 340 -1280 560 -1120 0 FreeSans 160 0 0 0 inn
+port 4 nsew
+flabel metal1 600 -1080 680 1100 0 FreeSans 160 0 0 0 out
+port 7 nsew
+<< end >>

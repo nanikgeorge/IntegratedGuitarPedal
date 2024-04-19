@@ -1,0 +1,55 @@
+* NGSPICE file created from myOpamp_noguardring.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_7W2YM9 a_n229_n99# a_n545_n73# a_487_n73# a_n29_n73#
++ a_n487_n99# a_n287_n73# a_545_n99# a_29_n99# a_n803_n73# a_287_n99# a_745_n73# a_229_n73#
++ a_n745_n99# VSUBS
+X0 a_n545_n73# a_n745_n99# a_n803_n73# VSUBS sky130_fd_pr__nfet_01v8 ad=0.0609 pd=0.71 as=0.1218 ps=1.42 w=0.42 l=1
+X1 a_n287_n73# a_n487_n99# a_n545_n73# VSUBS sky130_fd_pr__nfet_01v8 ad=0.0609 pd=0.71 as=0.0609 ps=0.71 w=0.42 l=1
+X2 a_n29_n73# a_n229_n99# a_n287_n73# VSUBS sky130_fd_pr__nfet_01v8 ad=0.0609 pd=0.71 as=0.0609 ps=0.71 w=0.42 l=1
+X3 a_745_n73# a_545_n99# a_487_n73# VSUBS sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.0609 ps=0.71 w=0.42 l=1
+X4 a_229_n73# a_29_n99# a_n29_n73# VSUBS sky130_fd_pr__nfet_01v8 ad=0.0609 pd=0.71 as=0.0609 ps=0.71 w=0.42 l=1
+X5 a_487_n73# a_287_n99# a_229_n73# VSUBS sky130_fd_pr__nfet_01v8 ad=0.0609 pd=0.71 as=0.0609 ps=0.71 w=0.42 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_PE7Z8M a_1003_n64# a_1061_n161# a_n803_n64# a_n1319_n64#
++ a_1261_n64# a_n487_n161# a_n1261_n161# a_545_n161# a_745_n64# a_229_n64# w_n1355_n164#
++ a_n1061_n64# a_n545_n64# a_29_n161# a_487_n64# a_n745_n161# a_n29_n64# a_803_n161#
++ a_n287_n64# a_n229_n161# a_287_n161# a_n1003_n161#
+X0 a_n803_n64# a_n1003_n161# a_n1061_n64# w_n1355_n164# sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X1 a_n29_n64# a_n229_n161# a_n287_n64# w_n1355_n164# sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X2 a_745_n64# a_545_n161# a_487_n64# w_n1355_n164# sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X3 a_229_n64# a_29_n161# a_n29_n64# w_n1355_n164# sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X4 a_487_n64# a_287_n161# a_229_n64# w_n1355_n164# sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X5 a_n545_n64# a_n745_n161# a_n803_n64# w_n1355_n164# sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X6 a_1261_n64# a_1061_n161# a_1003_n64# w_n1355_n164# sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+X7 a_n1061_n64# a_n1261_n161# a_n1319_n64# w_n1355_n164# sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X8 a_n287_n64# a_n487_n161# a_n545_n64# w_n1355_n164# sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+X9 a_1003_n64# a_803_n161# a_745_n64# w_n1355_n164# sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_7AMGGK a_n100_n157# a_n158_n69# a_100_n69# VSUBS
+X0 a_100_n69# a_n100_n157# a_n158_n69# VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_QFRGQ5 a_100_n131# a_n100_n157# a_n158_n131# VSUBS
+X0 a_100_n131# a_n100_n157# a_n158_n131# VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt opamp_nores OUT VSS VDD INp INn R
+Xsky130_fd_pr__nfet_01v8_7W2YM9_0 R m1_540_190# m1_540_190# R R VSS R R VSS R VSS
++ VSS R VSS sky130_fd_pr__nfet_01v8_7W2YM9
+Xsky130_fd_pr__pfet_01v8_PE7Z8M_0 VDD m1_280_190# OUT m1_280_190# OUT m1_280_190#
++ m1_280_190# m1_280_190# m1_280_190# OUT VDD VDD VDD m1_280_190# VDD m1_280_190#
++ VDD m1_280_190# m1_280_190# m1_280_190# m1_280_190# m1_280_190# sky130_fd_pr__pfet_01v8_PE7Z8M
+Xsky130_fd_pr__nfet_01v8_7AMGGK_0 INn m1_540_190# OUT VSS sky130_fd_pr__nfet_01v8_7AMGGK
+Xsky130_fd_pr__nfet_01v8_7AMGGK_1 INn OUT m1_540_190# VSS sky130_fd_pr__nfet_01v8_7AMGGK
+Xsky130_fd_pr__nfet_01v8_7AMGGK_3 INn m1_540_190# OUT VSS sky130_fd_pr__nfet_01v8_7AMGGK
+Xsky130_fd_pr__nfet_01v8_7AMGGK_4 INn m1_540_190# OUT VSS sky130_fd_pr__nfet_01v8_7AMGGK
+Xsky130_fd_pr__nfet_01v8_7AMGGK_5 INn OUT m1_540_190# VSS sky130_fd_pr__nfet_01v8_7AMGGK
+Xsky130_fd_pr__nfet_01v8_QFRGQ5_0 m1_540_190# INp m1_280_190# VSS sky130_fd_pr__nfet_01v8_QFRGQ5
+Xsky130_fd_pr__nfet_01v8_QFRGQ5_1 m1_280_190# INp m1_540_190# VSS sky130_fd_pr__nfet_01v8_QFRGQ5
+Xsky130_fd_pr__nfet_01v8_QFRGQ5_2 m1_540_190# INp m1_280_190# VSS sky130_fd_pr__nfet_01v8_QFRGQ5
+Xsky130_fd_pr__nfet_01v8_QFRGQ5_3 m1_280_190# INp m1_540_190# VSS sky130_fd_pr__nfet_01v8_QFRGQ5
+Xsky130_fd_pr__nfet_01v8_QFRGQ5_5 m1_540_190# INp m1_280_190# VSS sky130_fd_pr__nfet_01v8_QFRGQ5
+.ends
+

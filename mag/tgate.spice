@@ -1,0 +1,19 @@
+* NGSPICE file created from tgate.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_UNVJW6 w_n425_n284# a_n287_n136# a_229_n136# a_29_n162#
++ a_n29_n136# a_n229_n162#
+X0 a_n29_n136# a_n229_n162# a_n287_n136# w_n425_n284# sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X1 a_229_n136# a_29_n162# a_n29_n136# w_n425_n284# sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_7HRXTK a_29_n157# a_n229_n157# a_229_n69# a_n389_n243#
++ a_n29_n69# a_n287_n69#
+X0 a_n29_n69# a_n229_n157# a_n287_n69# a_n389_n243# sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X1 a_229_n69# a_29_n157# a_n29_n69# a_n389_n243# sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+.ends
+
+*.subckt tgate IN OUT CTRL CTRLB
+Xsky130_fd_pr__pfet_01v8_UNVJW6_0 IN IN IN CTRLB OUT CTRLB sky130_fd_pr__pfet_01v8_UNVJW6
+Xsky130_fd_pr__nfet_01v8_7HRXTK_0 CTRL CTRL OUT OUT IN OUT sky130_fd_pr__nfet_01v8_7HRXTK
+*.ends
+.end

@@ -1,0 +1,46 @@
+* NGSPICE file created from test_inverter.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_M2ZTWU a_n158_n64# w_n194_n164# a_n100_n161# a_100_n64#
++ VSUBS
+X0 a_100_n64# a_n100_n161# a_n158_n64# w_n194_n164# sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+C0 a_100_n64# a_n100_n161# 0.026809f
+C1 w_n194_n164# a_n158_n64# 0.008086f
+C2 a_100_n64# w_n194_n164# 0.008086f
+C3 w_n194_n164# a_n100_n161# 0.120922f
+C4 a_100_n64# a_n158_n64# 0.055609f
+C5 a_n100_n161# a_n158_n64# 0.026809f
+C6 a_100_n64# VSUBS 0.119027f
+C7 a_n158_n64# VSUBS 0.119027f
+C8 a_n100_n161# VSUBS 0.405884f
+C9 w_n194_n164# VSUBS 0.421368f
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_QFRGQ5 a_100_n131# a_n100_n157# a_n158_n131# VSUBS
+X0 a_100_n131# a_n100_n157# a_n158_n131# VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+C0 a_100_n131# a_n100_n157# 0.026809f
+C1 a_100_n131# a_n158_n131# 0.055609f
+C2 a_n100_n157# a_n158_n131# 0.026809f
+C3 a_100_n131# VSUBS 0.127112f
+C4 a_n158_n131# VSUBS 0.127112f
+C5 a_n100_n157# VSUBS 0.51752f
+.ends
+
+.subckt sky130_fd_pr__res_xhigh_po_0p35_MC8RW6 a_546_n568# a_n616_n568# VSUBS
+X0 a_546_n568# a_n616_n568# VSUBS sky130_fd_pr__res_xhigh_po_0p35 l=26.11
+C0 a_546_n568# a_n616_n568# 0.019671f
+C1 a_546_n568# VSUBS 0.395178f
+C2 a_n616_n568# VSUBS 0.395178f
+.ends
+
+.subckt test_inverter IN OUT VSS VDD
+Xsky130_fd_pr__pfet_01v8_M2ZTWU_0 VDD VDD IN OUT VSS sky130_fd_pr__pfet_01v8_M2ZTWU
+Xsky130_fd_pr__nfet_01v8_QFRGQ5_0 OUT IN VSS VSS sky130_fd_pr__nfet_01v8_QFRGQ5
+Xsky130_fd_pr__res_xhigh_po_0p35_MC8RW6_0 IN OUT VSS sky130_fd_pr__res_xhigh_po_0p35_MC8RW6
+C0 IN VDD 0.182835f
+C1 OUT VDD 0.055344f
+C2 OUT IN 0.082899f
+C3 IN VSS 1.516317f
+C4 OUT VSS 0.963745f
+C5 VDD VSS 0.96518f
+.ends
+

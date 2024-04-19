@@ -1,0 +1,50 @@
+scale 1000 1 500000
+rnode "VDD.t1" 0 0 54 -720 0
+rnode "VDD.t0" 0 0 154 -720 0
+rnode "VDD.n0" 0 0 30 -540 0
+rnode "VDD" 0 0 -100 -540 0
+resist "VDD" "VDD.n0" 0.1625
+resist "VDD.n0" "VDD.t1" 228.59
+resist "VDD.n0" "VDD.t0" 658.119
+rnode "VSS.t1" 0 0 38 -1154 0
+rnode "VSS.t2" 0 0 -485 -1793 0
+rnode "VSS.t0" 0 0 138 -1154 0
+rnode "VSS.n0" 0 -0 150 -1410 0
+rnode "VSS.n1" 0 0 20 -1360 0
+rnode "VSS" 0 0 -140 -1460 0
+resist "VSS" "VSS.n1" 0.2
+resist "VSS.n0" "VSS.t0" 20.7122
+resist "VSS.n0" "VSS.t2" 50.0537
+resist "VSS.n1" "VSS.t1" 84.0385
+resist "VSS.n1" "VSS.n0" 250.324
+rnode "OUT.t1" 0 0 254 -720 0
+rnode "OUT" 0 -0 320 -1160 0
+rnode "OUT.n0" 0 0 350 -820 0
+rnode "OUT.t0" 0 0 238 -1154 0
+rnode "OUT" 0 0 320 -1160 0
+rnode "OUT.n1" 0 0 350 -1020 0
+rnode "OUT" 0 -0 320 -1160 0
+resist "OUT.n1" "OUT" 0.0267857
+resist "OUT" "OUT.n1" 0.291667
+resist "OUT.n0" "OUT" 0.354167
+resist "OUT.n1" "OUT.n0" 0.416667
+resist "OUT" "OUT.t0" 83.789
+resist "OUT.n0" "OUT.t1" 228.319
+rnode "IN" 0 -0 20 -1020 0
+rnode "IN.t2" 0 0 154 -720 0
+rnode "IN.n0" 0 0 154 -884 0
+rnode "IN.t1" 0 0 138 -1154 0
+rnode "IN.n1" 0 0 138 -999 0
+rnode "IN" 0 0 20 -1020 0
+rnode "IN.n2" 0 0 42 -940 0
+rnode "IN" 0 -0 20 -1020 0
+resist "IN.n1" "IN.n0" 0.0123457
+resist "IN" "IN.n2" 0.0169753
+resist "IN.n2" "IN.n1" 0.0740741
+resist "IN.n0" "IN" 0.228916
+resist "IN.n2" "IN" 0.454545
+resist "IN.n1" "IN.t1" 118.005
+resist "IN.n0" "IN.t2" 120.174
+device msubckt sky130_fd_pr__pfet_01v8 54 -820 55 -819  "VDD.t0" "IN.t2" 400 0 "VDD.t1" 200 11600,516 "OUT.t1" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 38 -1254 39 -1253  "VSS.t0" "IN.t1" 400 0 "VSS.t1" 200 11600,516 "OUT.t0" 200 11600,516
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -520 -2110 -519 -2109  "VSS.t2" "a_n520_n2180#" 1960 0 "IN" -276 30240,1004 "OUT" -276 30240,1004

@@ -1,0 +1,13 @@
+| units: 500000 tech: sky130A format: MIT
+x inp a_36_n1087# currentOut VSS s=58000,2116 d=29000,1058 l=200 w=1000 x=94 y=-1086 sky130_fd_pr__nfet_01v8
+x a_36_n1087# a_36_n1087# VDD VDD s=58000,2116 d=29000,1058 l=200 w=1000 x=94 y=100 sky130_fd_pr__pfet_01v8
+x a_36_n1087# VDD out VDD s=29000,1058 d=58000,2116 l=200 w=1000 x=352 y=100 sky130_fd_pr__pfet_01v8
+x inn currentOut out VSS s=29000,1058 d=58000,2116 l=200 w=1000 x=352 y=-1086 sky130_fd_pr__nfet_01v8
+R currentOut 2449
+R inn 344
+R inp 344
+R out 6257
+C VDD0 2.9
+R VDD 6252
+R VSS 630
+R a_36_n1087# 7112

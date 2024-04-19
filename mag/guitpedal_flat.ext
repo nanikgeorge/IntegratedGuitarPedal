@@ -1,0 +1,1272 @@
+timestamp 1713448933
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__pfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__pfet_01v8_hvt l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__res_xhigh_po_5p73 l=l+32
+parameters sky130_fd_pr__res_xhigh_po_2p85 l=l+32
+parameters sky130_fd_pr__res_xhigh_po_1p41 l=l+32
+parameters sky130_fd_pr__res_xhigh_po_0p69 l=l+32
+parameters sky130_fd_pr__res_xhigh_po_0p35 l=l+32
+parameters sky130_fd_pr__res_xhigh_po l=l+32 w=w
+port "ua[1]" 4 26896 0 27016 200 m4
+port "ui_in[7]" 18 24350 44952 24410 45152 m4
+port "ui_in[6]" 17 25086 44952 25146 45152 m4
+port "ui_in[5]" 16 25822 44952 25882 45152 m4
+port "ui_in[4]" 15 26558 44952 26618 45152 m4
+port "ui_in[3]" 14 27294 44952 27354 45152 m4
+port "ui_in[2]" 13 28030 44952 28090 45152 m4
+port "ui_in[1]" 12 28766 44952 28826 45152 m4
+port "ua[0]" 3 31312 0 31432 200 m4
+port "ui_in[0]" 11 29502 44952 29562 45152 m4
+port "VPWR" 51 1000 1000 1300 44152 m4
+port "VGND" 52 31506 1000 31806 44152 m4
+node "distortionUnit_7.tgate_1.CTRLB" 8119 4907.69 25894 15147 ndif 0 0 0 0 0 0 0 0 28080 1472 43200 2032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 254800 4148 0 0 166590 7414 368224 4324 766000 4680 541200 5360 0 0 0 0 0 0
+equiv "distortionUnit_7.tgate_1.CTRLB" "distortionUnit_7.sky130_fd_sc_hd__inv_8_0.Y"
+equiv "distortionUnit_7.tgate_1.CTRLB" "distortionUnit_7.tgate_0.CTRL"
+node "a_24860_15410#" 56229 0 24860 15410 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 137760 4076 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_23252_14978#" 21943 0 23252 14978 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53760 1676 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_22820_14978#" 188 672.562 22820 14978 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60480 2008 21050 942 0 0 0 0 0 0 0 0 0 0
+node "a_20090_16222#" 1848 5778.83 20090 16222 xpc 0 0 0 0 0 0 0 0 4872 284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 237600 4776 0 0 142208 5316 177540 4672 380600 5340 0 0 0 0 0 0 0 0
+node "a_21192_16677#" 4784 1799.18 21192 16677 ndif 0 0 0 0 0 0 0 0 67744 3148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41616 2924 122185 3970 397050 6820 0 0 0 0 0 0 0 0
+node "distortionUnit_7.myOpamp_0.INn" 1731 8781.2 21250 16589 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 154960 6356 389386 8410 328600 3940 1225500 9500 0 0 0 0 0 0
+node "distortionUnit_7.tgate_1.IN" 8603 2923.83 21450 16677 ndif 0 0 0 0 0 0 0 0 46400 2064 58000 2580 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 259486 8350 409760 7932 698600 8900 920800 10360 0 0 0 0 0 0
+equiv "distortionUnit_7.tgate_1.IN" "distortionUnit_7.myOpamp_0.OUT"
+node "a_20934_16677#" 8397 4029.35 20934 16677 ndif 0 0 0 0 0 0 0 0 34800 1548 34800 1548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 646000 10460 0 0 110432 7584 281964 9002 158600 3220 463600 4900 0 0 0 0 0 0
+node "a_19386_16222#" 162286 0 19386 16222 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 397600 11500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "distortionUnit_0.tgate_1.CTRLB" 8119 4922.15 12712 15277 ndif 0 0 0 0 0 0 0 0 28080 1472 43200 2032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 254800 4148 0 0 166590 7414 368224 4324 766000 4680 541200 5360 0 0 0 0 0 0
+equiv "distortionUnit_0.tgate_1.CTRLB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.Y"
+equiv "distortionUnit_0.tgate_1.CTRLB" "distortionUnit_0.tgate_0.CTRL"
+node "a_11678_15540#" 56229 0 11678 15540 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 137760 4076 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_10070_15108#" 21943 0 10070 15108 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53760 1676 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_9638_15108#" 188 673.165 9638 15108 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60480 2008 21050 942 0 0 0 0 0 0 0 0 0 0
+node "a_6908_16352#" 1848 5758.8 6908 16352 xpc 0 0 0 0 0 0 0 0 4872 284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 237600 4776 0 0 142208 5316 177540 4672 380600 5340 0 0 0 0 0 0 0 0
+node "a_8010_16807#" 4784 1780.29 8010 16807 ndif 0 0 0 0 0 0 0 0 67744 3148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41616 2924 122185 3970 397050 6820 0 0 0 0 0 0 0 0
+node "distortionUnit_0.myOpamp_0.INn" 1731 8510.68 8068 16719 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 154960 6356 389386 8410 328600 3940 1225500 9500 0 0 0 0 0 0
+node "distortionUnit_0.tgate_1.IN" 8603 2694.1 8268 16807 ndif 0 0 0 0 0 0 0 0 46400 2064 58000 2580 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 259486 8350 409760 7932 698600 8900 920800 10360 0 0 0 0 0 0
+equiv "distortionUnit_0.tgate_1.IN" "distortionUnit_0.myOpamp_0.OUT"
+node "a_7752_16807#" 8397 3589.14 7752 16807 ndif 0 0 0 0 0 0 0 0 34800 1548 34800 1548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 646000 10460 0 0 110432 7584 281964 9002 158600 3220 463600 4900 0 0 0 0 0 0
+node "a_6204_16352#" 162286 0 6204 16352 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 397600 11500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ua[1]" 4865 19234 26896 0 m4 0 0 0 0 0 0 0 0 46400 2064 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72536 3464 428552 7864 827200 8400 7981970 51672 174720 3152 0 0 0 0
+equiv "ua[1]" "distortionUnit_7.tgate_0.OUT"
+equiv "ua[1]" "distortionUnit_7.tgate_1.OUT"
+equiv "ua[1]" "distortionUnit_7.OUT"
+node "ui_in[7]" 5139 19415.6 24350 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 400228 12492 0 0 55750 3114 500224 5524 4029000 74820 2274960 26212 159120 4784 0 0 0 0
+equiv "ui_in[7]" "distortionUnit_7.sky130_fd_sc_hd__inv_8_0.A"
+equiv "ui_in[7]" "distortionUnit_7.tgate_0.CTRLB"
+equiv "ui_in[7]" "distortionUnit_7.tgate_1.CTRL"
+equiv "ui_in[7]" "distortionUnit_7.CTRL"
+node "distortionUnit_7.IN" 9401 14596.2 12877 16479 ndif 0 0 0 0 0 0 0 0 58000 2580 46400 2064 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 222950 9046 656708 15284 2855600 27540 3911436 25132 0 0 0 0 0 0
+equiv "distortionUnit_7.IN" "distortionUnit_0.tgate_0.OUT"
+equiv "distortionUnit_7.IN" "distortionUnit_0.tgate_1.OUT"
+equiv "distortionUnit_7.IN" "distortionUnit_0.OUT"
+equiv "distortionUnit_7.IN" "distortionUnit_7.myOpamp_0.INp"
+equiv "distortionUnit_7.IN" "distortionUnit_7.tgate_0.IN"
+node "ui_in[6]" 5139 15073 25086 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 400228 12492 0 0 55750 3114 500224 5524 3436200 62996 2370360 28332 142720 4344 0 0 0 0
+equiv "ui_in[6]" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.A"
+equiv "ui_in[6]" "distortionUnit_0.tgate_0.CTRLB"
+equiv "ui_in[6]" "distortionUnit_0.tgate_1.CTRL"
+equiv "ui_in[6]" "distortionUnit_0.CTRL"
+node "distortionUnit_6.tgate_1.CTRLB" 8119 4866.82 25544 22193 ndif 0 0 0 0 0 0 0 0 28080 1472 43200 2032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 254800 4148 0 0 166590 7414 368224 4324 766000 4680 541200 5360 0 0 0 0 0 0
+equiv "distortionUnit_6.tgate_1.CTRLB" "distortionUnit_6.sky130_fd_sc_hd__inv_8_0.Y"
+equiv "distortionUnit_6.tgate_1.CTRLB" "distortionUnit_6.tgate_0.CTRL"
+node "a_24510_22456#" 56229 0 24510 22456 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 137760 4076 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_22902_22024#" 21943 0 22902 22024 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53760 1676 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_22470_22024#" 188 673.612 22470 22024 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60480 2008 21050 942 0 0 0 0 0 0 0 0 0 0
+node "a_19740_23268#" 1848 5712.23 19740 23268 xpc 0 0 0 0 0 0 0 0 4872 284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 237600 4776 0 0 142208 5316 177540 4672 380600 5340 0 0 0 0 0 0 0 0
+node "a_20842_23723#" 4784 1745.61 20842 23723 ndif 0 0 0 0 0 0 0 0 67744 3148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41616 2924 122185 3970 397050 6820 0 0 0 0 0 0 0 0
+node "distortionUnit_6.myOpamp_0.INn" 1731 8041.86 20900 23635 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 154960 6356 389386 8410 328600 3940 1225500 9500 0 0 0 0 0 0
+node "distortionUnit_6.tgate_1.IN" 8603 2597.61 21100 23723 ndif 0 0 0 0 0 0 0 0 46400 2064 58000 2580 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 259486 8350 409760 7932 698600 8900 920800 10360 0 0 0 0 0 0
+equiv "distortionUnit_6.tgate_1.IN" "distortionUnit_6.myOpamp_0.OUT"
+node "a_20584_23723#" 8397 3111.62 20584 23723 ndif 0 0 0 0 0 0 0 0 34800 1548 34800 1548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 646000 10460 0 0 110432 7584 281964 9002 158600 3220 463600 4900 0 0 0 0 0 0
+node "a_19036_23268#" 162286 0 19036 23268 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 397600 11500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "distortionUnit_5.tgate_1.CTRLB" 8119 4794.46 12836 22323 ndif 0 0 0 0 0 0 0 0 28080 1472 43200 2032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 254800 4148 0 0 166590 7414 368224 4324 766000 4680 541200 5360 0 0 0 0 0 0
+equiv "distortionUnit_5.tgate_1.CTRLB" "distortionUnit_5.sky130_fd_sc_hd__inv_8_0.Y"
+equiv "distortionUnit_5.tgate_1.CTRLB" "distortionUnit_5.tgate_0.CTRL"
+node "a_11802_22586#" 56229 0 11802 22586 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 137760 4076 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_10194_22154#" 21943 0 10194 22154 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53760 1676 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_9762_22154#" 188 680.066 9762 22154 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60480 2008 21050 942 0 0 0 0 0 0 0 0 0 0
+node "a_7032_23398#" 1848 5627.38 7032 23398 xpc 0 0 0 0 0 0 0 0 4872 284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 237600 4776 0 0 142208 5316 177540 4672 380600 5340 0 0 0 0 0 0 0 0
+node "a_8134_23853#" 4784 1694.48 8134 23853 ndif 0 0 0 0 0 0 0 0 67744 3148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41616 2924 122185 3970 397050 6820 0 0 0 0 0 0 0 0
+node "distortionUnit_5.myOpamp_0.INn" 1731 8043.76 8192 23765 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 154960 6356 389386 8410 328600 3940 1225500 9500 0 0 0 0 0 0
+node "distortionUnit_5.tgate_1.IN" 8603 2556.87 8392 23853 ndif 0 0 0 0 0 0 0 0 46400 2064 58000 2580 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 259486 8350 409760 7932 698600 8900 920800 10360 0 0 0 0 0 0
+equiv "distortionUnit_5.tgate_1.IN" "distortionUnit_5.myOpamp_0.OUT"
+node "a_7876_23853#" 8397 2824.63 7876 23853 ndif 0 0 0 0 0 0 0 0 34800 1548 34800 1548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 646000 10460 0 0 110432 7584 281964 9002 158600 3220 463600 4900 0 0 0 0 0 0
+node "a_6328_23398#" 162286 0 6328 23398 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 397600 11500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "distortionUnit_6.OUT" 9399 30295.8 7810 16781 p 0 0 0 0 0 0 0 0 58000 2580 46400 2064 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 222950 9046 656708 15284 2855600 27540 13042340 81928 0 0 0 0 0 0
+equiv "distortionUnit_6.OUT" "distortionUnit_0.myOpamp_0.INp"
+equiv "distortionUnit_6.OUT" "distortionUnit_0.tgate_0.IN"
+equiv "distortionUnit_6.OUT" "distortionUnit_0.IN"
+equiv "distortionUnit_6.OUT" "distortionUnit_6.tgate_0.OUT"
+equiv "distortionUnit_6.OUT" "distortionUnit_6.tgate_1.OUT"
+node "ui_in[5]" 5139 16080.6 25822 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 400228 12492 0 0 55750 3114 500224 5524 3294200 60156 2371680 28332 133920 3984 0 0 0 0
+equiv "ui_in[5]" "distortionUnit_6.sky130_fd_sc_hd__inv_8_0.A"
+equiv "ui_in[5]" "distortionUnit_6.tgate_0.CTRLB"
+equiv "ui_in[5]" "distortionUnit_6.tgate_1.CTRL"
+equiv "ui_in[5]" "distortionUnit_6.CTRL"
+node "distortionUnit_6.IN" 9401 13466.1 13001 23525 ndif 0 0 0 0 0 0 0 0 58000 2580 46400 2064 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 222950 9046 656708 15284 2855600 27540 3692780 23784 0 0 0 0 0 0
+equiv "distortionUnit_6.IN" "distortionUnit_5.tgate_0.OUT"
+equiv "distortionUnit_6.IN" "distortionUnit_5.tgate_1.OUT"
+equiv "distortionUnit_6.IN" "distortionUnit_5.OUT"
+equiv "distortionUnit_6.IN" "distortionUnit_6.myOpamp_0.INp"
+equiv "distortionUnit_6.IN" "distortionUnit_6.tgate_0.IN"
+node "ui_in[4]" 5140 13666.7 26558 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 400228 12492 0 0 55750 3114 500224 5524 2738837 49206 2550080 32012 114720 3464 0 0 0 0
+equiv "ui_in[4]" "distortionUnit_5.sky130_fd_sc_hd__inv_8_0.A"
+equiv "ui_in[4]" "distortionUnit_5.tgate_0.CTRLB"
+equiv "ui_in[4]" "distortionUnit_5.tgate_1.CTRL"
+equiv "ui_in[4]" "distortionUnit_5.CTRL"
+node "distortionUnit_4.tgate_1.CTRLB" 8119 4890.96 25448 28951 ndif 0 0 0 0 0 0 0 0 28080 1472 43200 2032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 254800 4148 0 0 166590 7414 368224 4324 766000 4680 541200 5360 0 0 0 0 0 0
+equiv "distortionUnit_4.tgate_1.CTRLB" "distortionUnit_4.sky130_fd_sc_hd__inv_8_0.Y"
+equiv "distortionUnit_4.tgate_1.CTRLB" "distortionUnit_4.tgate_0.CTRL"
+node "a_24414_29214#" 56229 0 24414 29214 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 137760 4076 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_22806_28782#" 21943 0 22806 28782 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53760 1676 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_22374_28782#" 188 673.472 22374 28782 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60480 2008 21050 942 0 0 0 0 0 0 0 0 0 0
+node "a_19644_30026#" 1848 5736.89 19644 30026 xpc 0 0 0 0 0 0 0 0 4872 284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 237600 4776 0 0 142208 5316 177540 4672 380600 5340 0 0 0 0 0 0 0 0
+node "a_20746_30481#" 4784 1757.41 20746 30481 ndif 0 0 0 0 0 0 0 0 67744 3148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41616 2924 122185 3970 397050 6820 0 0 0 0 0 0 0 0
+node "distortionUnit_4.myOpamp_0.INn" 1731 8111.64 20804 30393 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 154960 6356 389386 8410 328600 3940 1225500 9500 0 0 0 0 0 0
+node "distortionUnit_4.tgate_1.IN" 8603 2687.92 21004 30481 ndif 0 0 0 0 0 0 0 0 46400 2064 58000 2580 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 259486 8350 409760 7932 698600 8900 920800 10360 0 0 0 0 0 0
+equiv "distortionUnit_4.tgate_1.IN" "distortionUnit_4.myOpamp_0.OUT"
+node "a_20488_30481#" 8397 3280.69 20488 30481 ndif 0 0 0 0 0 0 0 0 34800 1548 34800 1548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 646000 10460 0 0 110432 7584 281964 9002 158600 3220 463600 4900 0 0 0 0 0 0
+node "a_18940_30026#" 162286 0 18940 30026 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 397600 11500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "distortionUnit_3.tgate_1.CTRLB" 8119 4856.1 12716 29027 ndif 0 0 0 0 0 0 0 0 28080 1472 43200 2032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 254800 4148 0 0 166590 7414 368224 4324 766000 4680 541200 5360 0 0 0 0 0 0
+equiv "distortionUnit_3.tgate_1.CTRLB" "distortionUnit_3.sky130_fd_sc_hd__inv_8_0.Y"
+equiv "distortionUnit_3.tgate_1.CTRLB" "distortionUnit_3.tgate_0.CTRL"
+node "a_11682_29290#" 56229 0 11682 29290 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 137760 4076 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_10074_28858#" 21943 0 10074 28858 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53760 1676 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_9642_28858#" 188 674.093 9642 28858 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60480 2008 21050 942 0 0 0 0 0 0 0 0 0 0
+node "a_6912_30102#" 1848 5691.12 6912 30102 xpc 0 0 0 0 0 0 0 0 4872 284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 237600 4776 0 0 142208 5316 177540 4672 380600 5340 0 0 0 0 0 0 0 0
+node "a_8014_30557#" 4784 1736.04 8014 30557 ndif 0 0 0 0 0 0 0 0 67744 3148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41616 2924 122185 3970 397050 6820 0 0 0 0 0 0 0 0
+node "distortionUnit_3.myOpamp_0.INn" 1731 8103.46 8072 30469 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 154960 6356 389386 8410 328600 3940 1225500 9500 0 0 0 0 0 0
+node "distortionUnit_3.tgate_1.IN" 8603 2633.29 8272 30557 ndif 0 0 0 0 0 0 0 0 46400 2064 58000 2580 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 259486 8350 409760 7932 698600 8900 920800 10360 0 0 0 0 0 0
+equiv "distortionUnit_3.tgate_1.IN" "distortionUnit_3.myOpamp_0.OUT"
+node "a_7756_30557#" 8397 3014.93 7756 30557 ndif 0 0 0 0 0 0 0 0 34800 1548 34800 1548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 646000 10460 0 0 110432 7584 281964 9002 158600 3220 463600 4900 0 0 0 0 0 0
+node "a_6208_30102#" 162286 0 6208 30102 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 397600 11500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "distortionUnit_5.IN" 9399 29795.3 7934 23827 p 0 0 0 0 0 0 0 0 58000 2580 46400 2064 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 222950 9046 656708 15284 2855600 27540 12963228 82192 0 0 0 0 0 0
+equiv "distortionUnit_5.IN" "distortionUnit_4.tgate_0.OUT"
+equiv "distortionUnit_5.IN" "distortionUnit_4.tgate_1.OUT"
+equiv "distortionUnit_5.IN" "distortionUnit_4.OUT"
+equiv "distortionUnit_5.IN" "distortionUnit_5.myOpamp_0.INp"
+equiv "distortionUnit_5.IN" "distortionUnit_5.tgate_0.IN"
+node "ui_in[3]" 5139 14707.7 27294 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 400228 12492 0 0 55750 3114 500224 5524 2627400 46580 2512200 30972 111920 3104 0 0 0 0
+equiv "ui_in[3]" "distortionUnit_4.sky130_fd_sc_hd__inv_8_0.A"
+equiv "ui_in[3]" "distortionUnit_4.tgate_0.CTRLB"
+equiv "ui_in[3]" "distortionUnit_4.tgate_1.CTRL"
+equiv "ui_in[3]" "distortionUnit_4.CTRL"
+node "distortionUnit_4.IN" 9401 13287.3 12881 30229 ndif 0 0 0 0 0 0 0 0 58000 2580 46400 2064 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 222950 9046 656708 15284 2855600 27540 3758180 23704 0 0 0 0 0 0
+equiv "distortionUnit_4.IN" "distortionUnit_3.tgate_0.OUT"
+equiv "distortionUnit_4.IN" "distortionUnit_3.tgate_1.OUT"
+equiv "distortionUnit_4.IN" "distortionUnit_3.OUT"
+equiv "distortionUnit_4.IN" "distortionUnit_4.myOpamp_0.INp"
+equiv "distortionUnit_4.IN" "distortionUnit_4.tgate_0.IN"
+node "ui_in[2]" 5159 12832 28030 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 400228 12492 0 0 55750 3114 500224 5524 2089200 35912 2724520 35732 87920 2584 0 0 0 0
+equiv "ui_in[2]" "distortionUnit_3.sky130_fd_sc_hd__inv_8_0.A"
+equiv "ui_in[2]" "distortionUnit_3.tgate_0.CTRLB"
+equiv "ui_in[2]" "distortionUnit_3.tgate_1.CTRL"
+equiv "ui_in[2]" "distortionUnit_3.CTRL"
+node "distortionUnit_2.tgate_1.CTRLB" 8119 4829 25484 35071 ndif 0 0 0 0 0 0 0 0 28080 1472 43200 2032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 254800 4148 0 0 166590 7414 368224 4324 766000 4680 541200 5360 0 0 0 0 0 0
+equiv "distortionUnit_2.tgate_1.CTRLB" "distortionUnit_2.sky130_fd_sc_hd__inv_8_0.Y"
+equiv "distortionUnit_2.tgate_1.CTRLB" "distortionUnit_2.tgate_0.CTRL"
+node "a_24450_35334#" 56229 0 24450 35334 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 137760 4076 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_22842_34902#" 21943 0 22842 34902 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53760 1676 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_22410_34902#" 188 675.619 22410 34902 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60480 2008 21050 942 0 0 0 0 0 0 0 0 0 0
+node "a_19680_36146#" 1848 5661.42 19680 36146 xpc 0 0 0 0 0 0 0 0 4872 284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 237600 4776 0 0 142208 5316 177540 4672 380600 5340 0 0 0 0 0 0 0 0
+node "a_20782_36601#" 4784 1720.68 20782 36601 ndif 0 0 0 0 0 0 0 0 67744 3148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41616 2924 122185 3970 397050 6820 0 0 0 0 0 0 0 0
+node "distortionUnit_2.myOpamp_0.INn" 1731 8003.51 20840 36513 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 154960 6356 389386 8410 328600 3940 1225500 9500 0 0 0 0 0 0
+node "distortionUnit_2.tgate_1.IN" 8603 2612.96 21040 36601 ndif 0 0 0 0 0 0 0 0 46400 2064 58000 2580 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 259486 8350 409760 7932 698600 8900 920800 10360 0 0 0 0 0 0
+equiv "distortionUnit_2.tgate_1.IN" "distortionUnit_2.myOpamp_0.OUT"
+node "a_20524_36601#" 8397 2921.11 20524 36601 ndif 0 0 0 0 0 0 0 0 34800 1548 34800 1548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 646000 10460 0 0 110432 7584 281964 9002 158600 3220 463600 4900 0 0 0 0 0 0
+node "a_18976_36146#" 162286 0 18976 36146 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 397600 11500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "distortionUnit_1.tgate_1.CTRLB" 8119 4894.26 12670 34915 ndif 0 0 0 0 0 0 0 0 28080 1472 43200 2032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 254800 4148 0 0 166590 7414 368224 4324 766000 4680 541200 5360 0 0 0 0 0 0
+equiv "distortionUnit_1.tgate_1.CTRLB" "distortionUnit_1.sky130_fd_sc_hd__inv_8_0.Y"
+equiv "distortionUnit_1.tgate_1.CTRLB" "distortionUnit_1.tgate_0.CTRL"
+node "a_11636_35178#" 56229 0 11636 35178 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 137760 4076 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_10028_34746#" 21943 0 10028 34746 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53760 1676 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_9596_34746#" 188 673.33 9596 34746 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60480 2008 21050 942 0 0 0 0 0 0 0 0 0 0
+node "a_6866_35990#" 1848 5750.62 6866 35990 xpc 0 0 0 0 0 0 0 0 4872 284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 237600 4776 0 0 142208 5316 177540 4672 380600 5340 0 0 0 0 0 0 0 0
+node "a_7968_36445#" 4784 1775.46 7968 36445 ndif 0 0 0 0 0 0 0 0 67744 3148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41616 2924 122185 3970 397050 6820 0 0 0 0 0 0 0 0
+node "distortionUnit_1.myOpamp_0.INn" 1731 8235.25 8026 36357 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 154960 6356 389386 8410 328600 3940 1225500 9500 0 0 0 0 0 0
+node "distortionUnit_1.tgate_1.IN" 8603 2716.86 8226 36445 ndif 0 0 0 0 0 0 0 0 46400 2064 58000 2580 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 259486 8350 409760 7932 698600 8900 920800 10360 0 0 0 0 0 0
+equiv "distortionUnit_1.tgate_1.IN" "distortionUnit_1.myOpamp_0.OUT"
+node "a_7710_36445#" 8397 3455.73 7710 36445 ndif 0 0 0 0 0 0 0 0 34800 1548 34800 1548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 646000 10460 0 0 110432 7584 281964 9002 158600 3220 463600 4900 0 0 0 0 0 0
+node "a_6162_35990#" 162286 0 6162 35990 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 397600 11500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "distortionUnit_3.IN" 9399 29620.1 7814 30531 p 0 0 0 0 0 0 0 0 58000 2580 46400 2064 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 222950 9046 656708 15284 2855600 27540 13183653 81884 0 0 0 0 0 0
+equiv "distortionUnit_3.IN" "distortionUnit_2.tgate_0.OUT"
+equiv "distortionUnit_3.IN" "distortionUnit_2.tgate_1.OUT"
+equiv "distortionUnit_3.IN" "distortionUnit_2.OUT"
+equiv "distortionUnit_3.IN" "distortionUnit_3.myOpamp_0.INp"
+equiv "distortionUnit_3.IN" "distortionUnit_3.tgate_0.IN"
+node "ui_in[1]" 5158 12995.2 28766 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 400228 12492 0 0 55750 3114 500224 5524 2030000 34824 2590880 33052 69520 2104 0 0 0 0
+equiv "ui_in[1]" "distortionUnit_2.sky130_fd_sc_hd__inv_8_0.A"
+equiv "ui_in[1]" "distortionUnit_2.tgate_0.CTRLB"
+equiv "ui_in[1]" "distortionUnit_2.tgate_1.CTRL"
+equiv "ui_in[1]" "distortionUnit_2.CTRL"
+node "distortionUnit_2.IN" 9401 13223 12835 36117 ndif 0 0 0 0 0 0 0 0 58000 2580 46400 2064 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 222950 9046 656708 15284 2855600 27540 3712180 23908 0 0 0 0 0 0
+equiv "distortionUnit_2.IN" "distortionUnit_1.tgate_0.OUT"
+equiv "distortionUnit_2.IN" "distortionUnit_1.tgate_1.OUT"
+equiv "distortionUnit_2.IN" "distortionUnit_1.OUT"
+equiv "distortionUnit_2.IN" "distortionUnit_2.myOpamp_0.INp"
+equiv "distortionUnit_2.IN" "distortionUnit_2.tgate_0.IN"
+node "ua[0]" 3824 39644.6 31312 0 m4 0 0 0 0 0 0 0 0 11600 516 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314000 5140 0 0 150414 5582 228156 7420 2028400 19140 17738164 88264 3724366 63250 0 0 0 0
+equiv "ua[0]" "distortionUnit_1.myOpamp_0.INp"
+equiv "ua[0]" "distortionUnit_1.tgate_0.IN"
+equiv "ua[0]" "distortionUnit_1.IN"
+node "ui_in[0]" 5152 14373.1 29502 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 400228 12492 0 0 55750 3114 500224 5524 1496200 24196 2867760 39334 54320 1664 0 0 0 0
+equiv "ui_in[0]" "distortionUnit_1.sky130_fd_sc_hd__inv_8_0.A"
+equiv "ui_in[0]" "distortionUnit_1.tgate_0.CTRLB"
+equiv "ui_in[0]" "distortionUnit_1.tgate_1.CTRL"
+equiv "ui_in[0]" "distortionUnit_1.CTRL"
+node "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPB" 3403 1143.09 25714 15361 nw 0 0 0 0 349248 2818 0 0 22050 602 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29550 694 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_7.sky130_fd_sc_hd__inv_8_0.VPB"
+node "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPB" 3403 1143.29 12532 15491 nw 0 0 0 0 349248 2818 0 0 22050 602 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29550 694 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VPB"
+node "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPB" 3403 1143.29 25364 22407 nw 0 0 0 0 349248 2818 0 0 22050 602 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29550 694 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_6.sky130_fd_sc_hd__inv_8_0.VPB"
+node "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" 3403 1143.29 12656 22537 nw 0 0 0 0 349248 2818 0 0 22050 602 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29550 694 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_5.sky130_fd_sc_hd__inv_8_0.VPB"
+node "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPB" 3403 1143.29 25268 29165 nw 0 0 0 0 349248 2818 0 0 22050 602 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29550 694 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_4.sky130_fd_sc_hd__inv_8_0.VPB"
+node "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" 3403 1143.29 12536 29241 nw 0 0 0 0 349248 2818 0 0 22050 602 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29550 694 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_3.sky130_fd_sc_hd__inv_8_0.VPB"
+node "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPB" 3403 1143.29 25304 35285 nw 0 0 0 0 349248 2818 0 0 22050 602 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29550 694 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_2.sky130_fd_sc_hd__inv_8_0.VPB"
+node "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" 3403 1143.29 12490 35129 nw 0 0 0 0 349248 2818 0 0 22050 602 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29550 694 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_1.sky130_fd_sc_hd__inv_8_0.VPB"
+node "VPWR" 4456 479098 1000 1000 m4 0 0 0 0 46858496 364384 0 0 12603936 388160 1075200 49152 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1033600 16736 0 0 15900224 453792 36720944 418592 24651200 99040 49603200 182720 177945600 306904 0 0 0 0
+equiv "VPWR" "distortionUnit_7.VDD"
+equiv "VPWR" "distortionUnit_0.myOpamp_0.VDD"
+equiv "VPWR" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VPWR"
+equiv "VPWR" "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPWR"
+equiv "VPWR" "distortionUnit_0.tgate_0.VDD"
+equiv "VPWR" "distortionUnit_0.tgate_1.VDD"
+equiv "VPWR" "distortionUnit_0.VDD"
+equiv "VPWR" "distortionUnit_1.myOpamp_0.VDD"
+equiv "VPWR" "distortionUnit_1.sky130_fd_sc_hd__inv_8_0.VPWR"
+equiv "VPWR" "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPWR"
+equiv "VPWR" "distortionUnit_1.tgate_0.VDD"
+equiv "VPWR" "distortionUnit_1.tgate_1.VDD"
+equiv "VPWR" "distortionUnit_1.VDD"
+equiv "VPWR" "distortionUnit_2.myOpamp_0.VDD"
+equiv "VPWR" "distortionUnit_2.sky130_fd_sc_hd__inv_8_0.VPWR"
+equiv "VPWR" "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPWR"
+equiv "VPWR" "distortionUnit_2.tgate_0.VDD"
+equiv "VPWR" "distortionUnit_2.tgate_1.VDD"
+equiv "VPWR" "distortionUnit_2.VDD"
+equiv "VPWR" "distortionUnit_3.myOpamp_0.VDD"
+equiv "VPWR" "distortionUnit_3.sky130_fd_sc_hd__inv_8_0.VPWR"
+equiv "VPWR" "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPWR"
+equiv "VPWR" "distortionUnit_3.tgate_0.VDD"
+equiv "VPWR" "distortionUnit_3.tgate_1.VDD"
+equiv "VPWR" "distortionUnit_3.VDD"
+equiv "VPWR" "distortionUnit_4.myOpamp_0.VDD"
+equiv "VPWR" "distortionUnit_4.sky130_fd_sc_hd__inv_8_0.VPWR"
+equiv "VPWR" "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPWR"
+equiv "VPWR" "distortionUnit_4.tgate_0.VDD"
+equiv "VPWR" "distortionUnit_4.tgate_1.VDD"
+equiv "VPWR" "distortionUnit_4.VDD"
+equiv "VPWR" "distortionUnit_5.myOpamp_0.VDD"
+equiv "VPWR" "distortionUnit_5.sky130_fd_sc_hd__inv_8_0.VPWR"
+equiv "VPWR" "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPWR"
+equiv "VPWR" "distortionUnit_5.tgate_0.VDD"
+equiv "VPWR" "distortionUnit_5.tgate_1.VDD"
+equiv "VPWR" "distortionUnit_5.VDD"
+equiv "VPWR" "distortionUnit_6.myOpamp_0.VDD"
+equiv "VPWR" "distortionUnit_6.sky130_fd_sc_hd__inv_8_0.VPWR"
+equiv "VPWR" "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPWR"
+equiv "VPWR" "distortionUnit_6.tgate_0.VDD"
+equiv "VPWR" "distortionUnit_6.tgate_1.VDD"
+equiv "VPWR" "distortionUnit_6.VDD"
+equiv "VPWR" "distortionUnit_7.myOpamp_0.VDD"
+equiv "VPWR" "distortionUnit_7.sky130_fd_sc_hd__inv_8_0.VPWR"
+equiv "VPWR" "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPWR"
+equiv "VPWR" "distortionUnit_7.tgate_0.VDD"
+equiv "VPWR" "distortionUnit_7.tgate_1.VDD"
+substrate "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 5938 35534 ppd 0 0 0 0 0 0 0 0 852000 45632 14456640 530112 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2905600 54656 0 0 18832432 596880 36473344 388896 26832000 118240 47380800 169760 159215840 295768 0 0 0 0
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.myOpamp_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.sky130_fd_sc_hd__inv_8_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.tgate_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.tgate_1.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.myOpamp_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.sky130_fd_sc_hd__inv_8_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.sky130_fd_sc_hd__inv_8_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.tgate_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.tgate_1.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.myOpamp_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.sky130_fd_sc_hd__inv_8_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.sky130_fd_sc_hd__inv_8_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.tgate_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.tgate_1.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.myOpamp_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.sky130_fd_sc_hd__inv_8_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.sky130_fd_sc_hd__inv_8_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.tgate_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.tgate_1.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.myOpamp_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.sky130_fd_sc_hd__inv_8_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.sky130_fd_sc_hd__inv_8_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.tgate_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.tgate_1.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.myOpamp_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.sky130_fd_sc_hd__inv_8_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.sky130_fd_sc_hd__inv_8_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.tgate_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.tgate_1.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.myOpamp_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.sky130_fd_sc_hd__inv_8_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.sky130_fd_sc_hd__inv_8_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.tgate_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.tgate_1.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.myOpamp_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.sky130_fd_sc_hd__inv_8_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VNB"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VGND"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.tgate_0.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.tgate_1.VSS"
+equiv "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.VSS"
+cap "a_7968_36445#" "ua[0]" 763.261
+cap "distortionUnit_7.IN" "a_20090_16222#" 198.383
+cap "ui_in[0]" "ua[0]" 1308.99
+cap "distortionUnit_3.myOpamp_0.INn" "a_9642_28858#" 7.46481
+cap "distortionUnit_5.myOpamp_0.INn" "VPWR" 1838.05
+cap "a_7876_23853#" "distortionUnit_5.IN" 3111.84
+cap "distortionUnit_0.myOpamp_0.INn" "distortionUnit_7.IN" 5.27304
+cap "ui_in[1]" "distortionUnit_2.myOpamp_0.INn" 254.44
+cap "distortionUnit_2.myOpamp_0.INn" "ui_in[3]" 58.8052
+cap "ui_in[1]" "ui_in[3]" 1038.86
+cap "ui_in[7]" "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPB" 278.876
+cap "a_7756_30557#" "VPWR" 4607.5
+cap "distortionUnit_6.OUT" "a_19740_23268#" 0.103306
+cap "distortionUnit_2.tgate_1.IN" "distortionUnit_3.IN" 1383.44
+cap "a_19644_30026#" "distortionUnit_5.IN" 0.00561774
+cap "distortionUnit_6.OUT" "distortionUnit_5.tgate_1.CTRLB" 28.1017
+cap "distortionUnit_4.tgate_1.IN" "a_19644_30026#" 1.33568
+cap "a_8014_30557#" "VPWR" 161.318
+cap "ui_in[5]" "distortionUnit_6.tgate_1.IN" 795.971
+cap "distortionUnit_5.tgate_1.IN" "distortionUnit_5.tgate_1.CTRLB" 1180.65
+cap "ui_in[1]" "distortionUnit_2.IN" 1594.33
+cap "distortionUnit_2.myOpamp_0.INn" "distortionUnit_2.IN" 503.808
+cap "VPWR" "a_20524_36601#" 4641.25
+cap "ui_in[1]" "ui_in[5]" 172.407
+cap "a_8010_16807#" "a_6908_16352#" 1531.8
+cap "distortionUnit_6.myOpamp_0.INn" "VPWR" 1380.15
+cap "distortionUnit_1.tgate_1.CTRLB" "distortionUnit_2.IN" 1626.97
+cap "ui_in[1]" "ui_in[6]" 170.14
+cap "distortionUnit_6.OUT" "distortionUnit_0.tgate_1.IN" 820.736
+cap "distortionUnit_6.IN" "distortionUnit_6.tgate_1.CTRLB" 258.603
+cap "distortionUnit_2.IN" "ui_in[3]" 284.299
+cap "ua[1]" "distortionUnit_7.myOpamp_0.INn" 5.27304
+cap "distortionUnit_6.IN" "a_20584_23723#" 3111.84
+cap "a_6912_30102#" "distortionUnit_3.IN" 198.383
+cap "ui_in[6]" "ui_in[3]" 166.581
+cap "ui_in[5]" "ui_in[3]" 2183.72
+cap "a_20090_16222#" "distortionUnit_7.myOpamp_0.INn" 1130.7
+cap "a_20488_30481#" "VPWR" 4573.45
+cap "distortionUnit_0.myOpamp_0.INn" "distortionUnit_0.tgate_1.CTRLB" 0.997346
+cap "ui_in[7]" "ua[1]" 1877.85
+cap "distortionUnit_5.myOpamp_0.INn" "distortionUnit_6.OUT" 182.465
+cap "distortionUnit_5.tgate_1.IN" "distortionUnit_5.myOpamp_0.INn" 1806.9
+cap "distortionUnit_4.myOpamp_0.INn" "VPWR" 578.814
+cap "distortionUnit_3.myOpamp_0.INn" "a_7756_30557#" 849.481
+cap "a_7756_30557#" "distortionUnit_3.tgate_1.IN" 2357.65
+cap "distortionUnit_1.tgate_1.IN" "ua[0]" 820.736
+cap "distortionUnit_7.IN" "distortionUnit_0.tgate_1.CTRLB" 1626.97
+cap "ui_in[5]" "distortionUnit_2.IN" 238.698
+cap "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPB" "VPWR" 274.328
+cap "distortionUnit_1.myOpamp_0.INn" "VPWR" 537.507
+cap "ui_in[6]" "distortionUnit_2.IN" 234.969
+cap "distortionUnit_7.IN" "distortionUnit_7.myOpamp_0.INn" 503.808
+cap "distortionUnit_3.myOpamp_0.INn" "a_8014_30557#" 1236.83
+cap "a_8014_30557#" "distortionUnit_3.tgate_1.IN" 662.032
+cap "ui_in[5]" "ui_in[6]" 3714.9
+cap "ui_in[7]" "distortionUnit_7.IN" 1330.97
+cap "ui_in[1]" "ui_in[2]" 4519.89
+cap "a_9642_28858#" "distortionUnit_5.IN" 11.7405
+cap "distortionUnit_6.myOpamp_0.INn" "distortionUnit_6.OUT" 260.919
+cap "ui_in[2]" "distortionUnit_1.tgate_1.CTRLB" 5.45782
+cap "a_19680_36146#" "a_20524_36601#" 275.22
+cap "ui_in[2]" "ui_in[3]" 3927.37
+cap "distortionUnit_5.tgate_1.CTRLB" "distortionUnit_5.IN" 258.603
+cap "a_20488_30481#" "distortionUnit_4.IN" 3111.84
+cap "ua[1]" "VPWR" 3539.63
+cap "ui_in[1]" "ui_in[4]" 174.472
+cap "a_20090_16222#" "VPWR" 100.029
+cap "distortionUnit_4.myOpamp_0.INn" "distortionUnit_4.IN" 503.808
+cap "a_20842_23723#" "VPWR" 164.659
+cap "a_19740_23268#" "a_22470_22024#" 0.0606057
+cap "distortionUnit_6.IN" "a_19740_23268#" 198.383
+cap "a_20746_30481#" "a_19644_30026#" 1531.8
+cap "ui_in[2]" "distortionUnit_2.IN" 262.185
+cap "a_9596_34746#" "distortionUnit_1.myOpamp_0.INn" 7.46481
+cap "ui_in[3]" "ui_in[4]" 3730.34
+cap "distortionUnit_6.IN" "distortionUnit_5.tgate_1.CTRLB" 1626.97
+cap "ui_in[5]" "ui_in[2]" 86.0367
+cap "distortionUnit_0.myOpamp_0.INn" "VPWR" 878.609
+cap "ui_in[6]" "ui_in[2]" 85.9327
+cap "a_20782_36601#" "a_20524_36601#" 1578.48
+cap "distortionUnit_5.myOpamp_0.INn" "distortionUnit_5.IN" 503.808
+cap "a_7968_36445#" "distortionUnit_1.myOpamp_0.INn" 1236.83
+cap "distortionUnit_7.IN" "VPWR" 12891
+cap "ui_in[7]" "distortionUnit_7.myOpamp_0.INn" 254.44
+cap "distortionUnit_1.myOpamp_0.INn" "ui_in[0]" 254.44
+cap "distortionUnit_2.IN" "ui_in[4]" 236.324
+cap "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" "VPWR" 274.328
+cap "distortionUnit_4.tgate_1.CTRLB" "ui_in[3]" 2304.83
+cap "ui_in[2]" "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" 278.876
+cap "ui_in[5]" "ui_in[4]" 3903.46
+cap "distortionUnit_5.myOpamp_0.INn" "distortionUnit_6.IN" 5.27304
+cap "ui_in[6]" "ui_in[4]" 3365.28
+cap "a_22374_28782#" "distortionUnit_5.IN" 14.5361
+cap "distortionUnit_3.IN" "distortionUnit_2.myOpamp_0.INn" 237.05
+cap "ui_in[1]" "distortionUnit_3.IN" 1928.57
+cap "a_7032_23398#" "a_8134_23853#" 1531.8
+cap "a_6912_30102#" "a_9642_28858#" 0.0606057
+cap "distortionUnit_3.IN" "distortionUnit_1.tgate_1.CTRLB" 43.1418
+cap "distortionUnit_3.IN" "ui_in[3]" 1113.57
+cap "distortionUnit_3.tgate_1.CTRLB" "VPWR" 4372.42
+cap "a_7752_16807#" "a_6908_16352#" 275.22
+cap "a_8010_16807#" "distortionUnit_0.tgate_1.IN" 662.032
+cap "a_7876_23853#" "a_8134_23853#" 1578.48
+cap "distortionUnit_6.tgate_1.IN" "distortionUnit_6.tgate_1.CTRLB" 1180.65
+cap "distortionUnit_3.IN" "distortionUnit_2.IN" 1367.8
+cap "a_21192_16677#" "a_20090_16222#" 1531.8
+cap "distortionUnit_0.myOpamp_0.INn" "distortionUnit_6.OUT" 503.808
+cap "distortionUnit_4.tgate_1.IN" "a_20488_30481#" 2357.65
+cap "distortionUnit_0.tgate_1.CTRLB" "VPWR" 4406.7
+cap "distortionUnit_4.myOpamp_0.INn" "distortionUnit_5.IN" 236.699
+cap "distortionUnit_6.myOpamp_0.INn" "a_22470_22024#" 7.46481
+cap "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPB" "VPWR" 274.328
+cap "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPB" "VPWR" 274.328
+cap "distortionUnit_6.myOpamp_0.INn" "distortionUnit_6.IN" 503.808
+cap "ui_in[5]" "distortionUnit_3.IN" 233.538
+cap "ui_in[6]" "distortionUnit_3.IN" 234.443
+cap "distortionUnit_7.IN" "distortionUnit_6.OUT" 1367.8
+cap "distortionUnit_6.tgate_1.IN" "a_20584_23723#" 2357.65
+cap "distortionUnit_4.tgate_1.IN" "distortionUnit_4.myOpamp_0.INn" 1806.9
+cap "a_22410_34902#" "a_19680_36146#" 0.0606057
+cap "distortionUnit_7.myOpamp_0.INn" "VPWR" 534.285
+cap "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_2.tgate_1.CTRLB" 175.567
+cap "distortionUnit_7.IN" "a_21192_16677#" 763.261
+cap "distortionUnit_1.tgate_1.IN" "distortionUnit_1.myOpamp_0.INn" 1806.9
+cap "distortionUnit_6.OUT" "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" 1.17264
+cap "ui_in[2]" "ui_in[4]" 1793.75
+cap "distortionUnit_2.tgate_1.IN" "a_20524_36601#" 2357.65
+cap "ui_in[7]" "VPWR" 5461.48
+cap "distortionUnit_3.tgate_1.CTRLB" "distortionUnit_3.myOpamp_0.INn" 0.997346
+cap "distortionUnit_3.tgate_1.CTRLB" "distortionUnit_3.tgate_1.IN" 1180.65
+cap "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" "VPWR" 274.328
+cap "a_6912_30102#" "a_7756_30557#" 275.22
+cap "ua[1]" "distortionUnit_7.tgate_1.IN" 1383.44
+cap "distortionUnit_3.tgate_1.CTRLB" "distortionUnit_4.IN" 1626.97
+cap "a_7710_36445#" "a_6866_35990#" 275.22
+cap "distortionUnit_7.tgate_1.IN" "a_20090_16222#" 1.33568
+cap "ui_in[5]" "distortionUnit_6.tgate_1.CTRLB" 2304.83
+cap "a_8014_30557#" "a_6912_30102#" 1531.8
+cap "distortionUnit_1.tgate_1.CTRLB" "ua[0]" 258.603
+cap "a_7032_23398#" "a_9762_22154#" 0.0606057
+cap "distortionUnit_7.IN" "distortionUnit_7.tgate_1.IN" 820.736
+cap "distortionUnit_0.tgate_1.CTRLB" "distortionUnit_6.OUT" 258.603
+cap "ui_in[2]" "distortionUnit_3.IN" 1743.42
+cap "distortionUnit_7.tgate_1.CTRLB" "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPB" 175.567
+cap "distortionUnit_2.IN" "ua[0]" 1367.8
+cap "ui_in[7]" "distortionUnit_4.IN" 253.945
+cap "ui_in[7]" "distortionUnit_6.OUT" 317.052
+cap "distortionUnit_6.tgate_1.IN" "a_19740_23268#" 1.33568
+cap "a_21192_16677#" "distortionUnit_7.myOpamp_0.INn" 1236.83
+cap "distortionUnit_3.IN" "ui_in[4]" 234.366
+cap "VPWR" "distortionUnit_2.tgate_1.CTRLB" 4409.06
+cap "distortionUnit_6.IN" "a_20842_23723#" 763.261
+cap "ui_in[7]" "ui_in[0]" 89.8421
+cap "a_20746_30481#" "a_20488_30481#" 1578.48
+cap "a_20746_30481#" "distortionUnit_4.myOpamp_0.INn" 1236.83
+cap "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[0]" 278.876
+cap "distortionUnit_7.tgate_1.CTRLB" "ua[1]" 1626.97
+cap "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPB" "VPWR" 274.328
+cap "distortionUnit_6.IN" "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" 0.456591
+cap "distortionUnit_3.tgate_1.CTRLB" "distortionUnit_5.IN" 28.9181
+cap "distortionUnit_3.myOpamp_0.INn" "VPWR" 698.154
+cap "VPWR" "distortionUnit_3.tgate_1.IN" 6647.67
+cap "distortionUnit_3.IN" "a_6866_35990#" 0.633719
+cap "a_7710_36445#" "ua[0]" 3111.84
+cap "distortionUnit_7.tgate_1.IN" "distortionUnit_7.myOpamp_0.INn" 1806.9
+cap "distortionUnit_7.IN" "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPB" 0.456591
+cap "a_20934_16677#" "a_20090_16222#" 275.22
+cap "a_7752_16807#" "distortionUnit_0.tgate_1.IN" 2357.65
+cap "ui_in[7]" "distortionUnit_7.tgate_1.IN" 795.971
+cap "distortionUnit_7.IN" "distortionUnit_7.tgate_1.CTRLB" 258.603
+cap "distortionUnit_5.myOpamp_0.INn" "a_8134_23853#" 1236.83
+cap "distortionUnit_4.IN" "VPWR" 15421.3
+cap "distortionUnit_6.OUT" "VPWR" 13994.1
+cap "a_7876_23853#" "a_7032_23398#" 275.22
+cap "distortionUnit_5.tgate_1.IN" "VPWR" 7473
+cap "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_5.IN" 1.8036
+cap "a_7968_36445#" "VPWR" 150.636
+cap "ui_in[6]" "distortionUnit_0.tgate_1.IN" 795.971
+cap "a_8010_16807#" "distortionUnit_0.myOpamp_0.INn" 1236.83
+cap "VPWR" "a_19680_36146#" 138.823
+cap "a_21192_16677#" "VPWR" 148.886
+cap "distortionUnit_7.IN" "a_20934_16677#" 3111.84
+cap "distortionUnit_6.myOpamp_0.INn" "distortionUnit_6.tgate_1.IN" 1806.9
+cap "ui_in[0]" "VPWR" 5353.41
+cap "ui_in[7]" "distortionUnit_5.IN" 238.801
+cap "distortionUnit_2.myOpamp_0.INn" "a_20524_36601#" 849.481
+cap "distortionUnit_3.myOpamp_0.INn" "distortionUnit_3.tgate_1.IN" 1806.9
+cap "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_6.OUT" 1.87346
+cap "distortionUnit_3.myOpamp_0.INn" "distortionUnit_4.IN" 5.27304
+cap "ui_in[7]" "distortionUnit_6.IN" 267.407
+cap "distortionUnit_4.IN" "distortionUnit_3.tgate_1.IN" 1383.44
+cap "a_20782_36601#" "VPWR" 164.599
+cap "distortionUnit_0.tgate_1.CTRLB" "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPB" 175.567
+cap "ui_in[5]" "a_22374_28782#" 0.500248
+cap "distortionUnit_7.tgate_1.IN" "VPWR" 6251.87
+cap "distortionUnit_2.IN" "a_20524_36601#" 3111.84
+cap "distortionUnit_7.tgate_1.CTRLB" "distortionUnit_7.myOpamp_0.INn" 0.997346
+cap "a_6908_16352#" "a_9638_15108#" 0.0606057
+cap "ui_in[3]" "distortionUnit_4.myOpamp_0.INn" 254.44
+cap "a_6866_35990#" "ua[0]" 198.383
+cap "distortionUnit_6.myOpamp_0.INn" "ui_in[5]" 254.44
+cap "distortionUnit_1.tgate_1.CTRLB" "distortionUnit_1.myOpamp_0.INn" 0.997346
+cap "ui_in[7]" "distortionUnit_7.tgate_1.CTRLB" 2304.83
+cap "distortionUnit_5.tgate_1.CTRLB" "ui_in[4]" 2304.83
+cap "a_20934_16677#" "distortionUnit_7.myOpamp_0.INn" 849.481
+cap "VPWR" "distortionUnit_5.IN" 15008.4
+cap "distortionUnit_4.tgate_1.IN" "VPWR" 6290.38
+cap "distortionUnit_1.tgate_1.IN" "VPWR" 5986.41
+cap "ui_in[5]" "distortionUnit_4.myOpamp_0.INn" 33.7196
+cap "distortionUnit_5.myOpamp_0.INn" "a_9762_22154#" 7.46481
+cap "distortionUnit_2.IN" "distortionUnit_1.myOpamp_0.INn" 5.27304
+cap "distortionUnit_6.IN" "VPWR" 14791.2
+cap "a_20842_23723#" "distortionUnit_6.tgate_1.IN" 662.032
+cap "distortionUnit_5.myOpamp_0.INn" "ui_in[4]" 254.44
+cap "a_20782_36601#" "a_19680_36146#" 1531.8
+cap "a_6908_16352#" "distortionUnit_0.tgate_1.IN" 1.33568
+cap "distortionUnit_2.myOpamp_0.INn" "a_22410_34902#" 7.46481
+cap "distortionUnit_2.tgate_1.IN" "VPWR" 6888.43
+cap "distortionUnit_3.myOpamp_0.INn" "distortionUnit_5.IN" 190.753
+cap "VPWR" "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPB" 274.328
+cap "ui_in[3]" "a_22410_34902#" 1.39277
+cap "a_21192_16677#" "distortionUnit_7.tgate_1.IN" 662.032
+cap "distortionUnit_2.tgate_1.IN" "distortionUnit_2.tgate_1.CTRLB" 1180.65
+cap "distortionUnit_7.tgate_1.CTRLB" "VPWR" 4298.09
+cap "distortionUnit_4.IN" "distortionUnit_5.IN" 1367.8
+cap "distortionUnit_5.myOpamp_0.INn" "a_7032_23398#" 1130.7
+cap "distortionUnit_5.tgate_1.IN" "distortionUnit_5.IN" 820.736
+cap "distortionUnit_4.tgate_1.IN" "distortionUnit_4.IN" 820.736
+cap "a_7710_36445#" "distortionUnit_1.myOpamp_0.INn" 849.481
+cap "a_8010_16807#" "VPWR" 156.762
+cap "distortionUnit_1.tgate_1.IN" "a_7968_36445#" 662.032
+cap "a_7752_16807#" "distortionUnit_0.myOpamp_0.INn" 849.481
+cap "a_6912_30102#" "VPWR" 124.672
+cap "a_20934_16677#" "VPWR" 4532.63
+cap "distortionUnit_1.tgate_1.IN" "ui_in[0]" 795.971
+cap "distortionUnit_6.OUT" "a_22470_22024#" 16.1464
+cap "distortionUnit_5.tgate_1.IN" "distortionUnit_6.IN" 1383.44
+cap "distortionUnit_6.IN" "distortionUnit_6.OUT" 1367.8
+cap "distortionUnit_0.myOpamp_0.INn" "ui_in[6]" 254.44
+cap "a_19740_23268#" "a_20584_23723#" 275.22
+cap "a_7876_23853#" "distortionUnit_5.myOpamp_0.INn" 849.481
+cap "distortionUnit_3.IN" "a_7756_30557#" 3111.84
+cap "distortionUnit_7.IN" "ui_in[6]" 1902.43
+cap "a_22820_14978#" "a_20090_16222#" 0.0606057
+cap "a_20746_30481#" "VPWR" 156.113
+cap "a_8014_30557#" "distortionUnit_3.IN" 763.261
+cap "ui_in[1]" "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPB" 278.876
+cap "distortionUnit_2.tgate_1.IN" "a_19680_36146#" 1.33568
+cap "distortionUnit_3.myOpamp_0.INn" "a_6912_30102#" 1130.7
+cap "a_6912_30102#" "distortionUnit_3.tgate_1.IN" 1.33568
+cap "distortionUnit_4.tgate_1.CTRLB" "distortionUnit_4.myOpamp_0.INn" 0.997346
+cap "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[3]" 278.876
+cap "ui_in[7]" "ui_in[1]" 188.69
+cap "a_8010_16807#" "distortionUnit_6.OUT" 763.261
+cap "ui_in[7]" "ui_in[3]" 184.684
+cap "distortionUnit_1.tgate_1.CTRLB" "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" 175.567
+cap "a_22374_28782#" "a_19644_30026#" 0.0606057
+cap "a_6866_35990#" "distortionUnit_1.myOpamp_0.INn" 1130.7
+cap "a_21192_16677#" "a_20934_16677#" 1578.48
+cap "distortionUnit_3.IN" "distortionUnit_1.myOpamp_0.INn" 396.323
+cap "distortionUnit_4.tgate_1.IN" "distortionUnit_5.IN" 1383.44
+cap "distortionUnit_0.tgate_1.CTRLB" "ui_in[6]" 2304.83
+cap "distortionUnit_2.tgate_1.IN" "a_20782_36601#" 662.032
+cap "distortionUnit_3.tgate_1.CTRLB" "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" 175.567
+cap "distortionUnit_6.myOpamp_0.INn" "distortionUnit_6.tgate_1.CTRLB" 0.997346
+cap "ui_in[7]" "distortionUnit_2.IN" 243.47
+cap "distortionUnit_6.myOpamp_0.INn" "a_20584_23723#" 849.481
+cap "a_20746_30481#" "distortionUnit_4.IN" 763.261
+cap "ui_in[7]" "ui_in[5]" 2543.79
+cap "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_2.IN" 0.456591
+cap "distortionUnit_6.IN" "distortionUnit_5.IN" 1382.29
+cap "ui_in[7]" "ui_in[6]" 7306.55
+cap "distortionUnit_7.tgate_1.CTRLB" "distortionUnit_7.tgate_1.IN" 1180.65
+cap "a_19644_30026#" "a_20488_30481#" 275.22
+cap "distortionUnit_6.tgate_1.IN" "VPWR" 7264.02
+cap "a_19644_30026#" "distortionUnit_4.myOpamp_0.INn" 1130.7
+cap "a_22820_14978#" "distortionUnit_7.myOpamp_0.INn" 7.46481
+cap "distortionUnit_3.tgate_1.CTRLB" "ui_in[2]" 2304.83
+cap "ui_in[1]" "VPWR" 5308.97
+cap "distortionUnit_7.tgate_1.IN" "a_20934_16677#" 2357.65
+cap "distortionUnit_2.myOpamp_0.INn" "VPWR" 867.237
+cap "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[4]" 278.876
+cap "distortionUnit_1.tgate_1.CTRLB" "VPWR" 4275.47
+cap "distortionUnit_2.myOpamp_0.INn" "distortionUnit_2.tgate_1.CTRLB" 0.997346
+cap "ui_in[1]" "distortionUnit_2.tgate_1.CTRLB" 2304.83
+cap "a_8134_23853#" "VPWR" 193.581
+cap "ui_in[3]" "VPWR" 5659.32
+cap "distortionUnit_0.myOpamp_0.INn" "a_6908_16352#" 1130.7
+cap "distortionUnit_5.myOpamp_0.INn" "distortionUnit_5.tgate_1.CTRLB" 0.997346
+cap "distortionUnit_3.IN" "a_22410_34902#" 14.6062
+cap "a_7752_16807#" "VPWR" 4635.32
+cap "distortionUnit_2.IN" "VPWR" 15030.4
+cap "ui_in[7]" "ui_in[2]" 86.9987
+cap "distortionUnit_1.myOpamp_0.INn" "ua[0]" 503.808
+cap "ui_in[5]" "VPWR" 5680.23
+cap "distortionUnit_2.IN" "distortionUnit_2.tgate_1.CTRLB" 258.603
+cap "ui_in[6]" "VPWR" 5428.95
+cap "distortionUnit_6.tgate_1.IN" "distortionUnit_6.OUT" 1383.44
+cap "distortionUnit_6.myOpamp_0.INn" "a_19740_23268#" 1130.7
+cap "ui_in[7]" "ui_in[4]" 89.6258
+cap "a_20842_23723#" "a_20584_23723#" 1578.48
+cap "distortionUnit_4.tgate_1.IN" "a_20746_30481#" 662.032
+cap "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" "VPWR" 274.328
+cap "distortionUnit_3.tgate_1.CTRLB" "distortionUnit_3.IN" 258.603
+cap "distortionUnit_4.tgate_1.CTRLB" "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPB" 175.567
+cap "distortionUnit_2.myOpamp_0.INn" "a_19680_36146#" 1130.7
+cap "distortionUnit_5.tgate_1.IN" "a_8134_23853#" 662.032
+cap "ui_in[3]" "distortionUnit_4.IN" 1318.39
+cap "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[5]" 278.876
+cap "ui_in[1]" "ui_in[0]" 4725.32
+cap "ua[1]" "ua[0]" 454.55
+cap "a_7710_36445#" "VPWR" 4550.37
+cap "distortionUnit_1.tgate_1.CTRLB" "ui_in[0]" 2304.83
+cap "ui_in[3]" "ui_in[0]" 89.6817
+cap "a_7752_16807#" "distortionUnit_6.OUT" 3111.84
+cap "distortionUnit_3.IN" "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPB" 1.8036
+cap "a_8014_30557#" "a_7756_30557#" 1578.48
+cap "ui_in[2]" "VPWR" 5628.77
+cap "ui_in[5]" "distortionUnit_4.IN" 291.464
+cap "ui_in[5]" "distortionUnit_6.OUT" 1931.64
+cap "ui_in[6]" "distortionUnit_4.IN" 244.964
+cap "distortionUnit_0.myOpamp_0.INn" "a_9638_15108#" 7.46481
+cap "ui_in[6]" "distortionUnit_6.OUT" 1585.48
+cap "distortionUnit_2.IN" "a_19680_36146#" 198.383
+cap "ui_in[7]" "distortionUnit_3.IN" 240.454
+cap "a_20782_36601#" "distortionUnit_2.myOpamp_0.INn" 1236.83
+cap "distortionUnit_2.IN" "ui_in[0]" 1894.13
+cap "distortionUnit_3.IN" "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" 1.70916
+cap "ui_in[6]" "ui_in[0]" 88.0278
+cap "ui_in[5]" "ui_in[0]" 87.9055
+cap "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_4.IN" 0.456591
+cap "ui_in[4]" "VPWR" 5668.71
+cap "a_22374_28782#" "distortionUnit_4.myOpamp_0.INn" 7.46481
+cap "a_20842_23723#" "a_19740_23268#" 1531.8
+cap "distortionUnit_3.myOpamp_0.INn" "ui_in[2]" 254.44
+cap "a_20782_36601#" "distortionUnit_2.IN" 763.261
+cap "ui_in[2]" "distortionUnit_3.tgate_1.IN" 795.971
+cap "a_7710_36445#" "a_7968_36445#" 1578.48
+cap "distortionUnit_4.tgate_1.CTRLB" "VPWR" 4308.04
+cap "distortionUnit_1.tgate_1.IN" "distortionUnit_1.tgate_1.CTRLB" 1180.65
+cap "distortionUnit_6.IN" "distortionUnit_6.tgate_1.IN" 820.736
+cap "a_8134_23853#" "distortionUnit_5.IN" 763.261
+cap "ui_in[3]" "distortionUnit_5.IN" 1928.09
+cap "a_6908_16352#" "VPWR" 100.029
+cap "a_7032_23398#" "VPWR" 185.809
+cap "distortionUnit_4.tgate_1.IN" "ui_in[3]" 795.971
+cap "ui_in[2]" "distortionUnit_4.IN" 1898.91
+cap "a_6866_35990#" "VPWR" 100.029
+cap "distortionUnit_6.OUT" "a_9762_22154#" 11.1827
+cap "a_20488_30481#" "distortionUnit_4.myOpamp_0.INn" 849.481
+cap "distortionUnit_0.myOpamp_0.INn" "distortionUnit_0.tgate_1.IN" 1806.9
+cap "distortionUnit_3.IN" "VPWR" 14905
+cap "distortionUnit_7.IN" "distortionUnit_0.tgate_1.IN" 1383.44
+cap "distortionUnit_3.IN" "distortionUnit_2.tgate_1.CTRLB" 1659.53
+cap "distortionUnit_1.tgate_1.IN" "distortionUnit_2.IN" 1383.44
+cap "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_5.tgate_1.CTRLB" 175.567
+cap "ui_in[2]" "ui_in[0]" 1029.88
+cap "ui_in[5]" "distortionUnit_5.IN" 337.455
+cap "ui_in[6]" "distortionUnit_5.IN" 232.865
+cap "distortionUnit_4.IN" "ui_in[4]" 261.488
+cap "distortionUnit_6.OUT" "ui_in[4]" 43.6133
+cap "distortionUnit_5.tgate_1.IN" "ui_in[4]" 795.971
+cap "distortionUnit_2.tgate_1.IN" "ui_in[1]" 795.971
+cap "a_7876_23853#" "VPWR" 5388.03
+cap "distortionUnit_2.tgate_1.IN" "distortionUnit_2.myOpamp_0.INn" 1806.9
+cap "ui_in[0]" "ui_in[4]" 89.2686
+cap "distortionUnit_6.IN" "ui_in[5]" 1321.92
+cap "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_5.IN" 1.20639
+cap "distortionUnit_6.IN" "ui_in[6]" 255.482
+cap "distortionUnit_6.tgate_1.CTRLB" "VPWR" 4492.68
+cap "distortionUnit_4.tgate_1.CTRLB" "distortionUnit_4.IN" 258.603
+cap "a_19644_30026#" "VPWR" 101.675
+cap "distortionUnit_3.myOpamp_0.INn" "distortionUnit_3.IN" 503.808
+cap "distortionUnit_3.IN" "distortionUnit_3.tgate_1.IN" 820.736
+cap "VPWR" "a_20584_23723#" 4825.33
+cap "distortionUnit_6.myOpamp_0.INn" "a_20842_23723#" 1236.83
+cap "distortionUnit_2.tgate_1.IN" "distortionUnit_2.IN" 820.736
+cap "a_6866_35990#" "a_9596_34746#" 0.0606057
+cap "distortionUnit_5.tgate_1.IN" "a_7032_23398#" 1.33568
+cap "a_6908_16352#" "distortionUnit_6.OUT" 198.383
+cap "distortionUnit_3.IN" "a_9596_34746#" 23.5925
+cap "a_7968_36445#" "a_6866_35990#" 1531.8
+cap "distortionUnit_3.IN" "distortionUnit_4.IN" 1618.54
+cap "distortionUnit_0.tgate_1.CTRLB" "distortionUnit_0.tgate_1.IN" 1180.65
+cap "distortionUnit_1.tgate_1.IN" "a_7710_36445#" 2357.65
+cap "ui_in[6]" "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPB" 278.876
+cap "distortionUnit_3.IN" "a_19680_36146#" 0.00561774
+cap "ua[1]" "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPB" 0.456591
+cap "a_7752_16807#" "a_8010_16807#" 1578.48
+cap "ui_in[2]" "distortionUnit_5.IN" 44.8828
+cap "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPB" "distortionUnit_6.tgate_1.CTRLB" 175.567
+cap "distortionUnit_3.IN" "ui_in[0]" 67.0857
+cap "ua[0]" "VPWR" 20392.1
+cap "a_7876_23853#" "distortionUnit_5.tgate_1.IN" 2357.65
+cap "ui_in[4]" "distortionUnit_5.IN" 1597.42
+cap "distortionUnit_6.tgate_1.CTRLB" "distortionUnit_6.OUT" 1661.42
+cap "a_19644_30026#" "distortionUnit_4.IN" 198.383
+cap "distortionUnit_6.IN" "ui_in[4]" 1900.75
+cap "a_19740_23268#" "VPWR" 120.584
+cap "distortionUnit_4.tgate_1.CTRLB" "distortionUnit_5.IN" 1659.5
+cap "distortionUnit_4.tgate_1.IN" "distortionUnit_4.tgate_1.CTRLB" 1180.65
+cap "distortionUnit_5.tgate_1.CTRLB" "VPWR" 4584.66
+cap "a_7032_23398#" "distortionUnit_5.IN" 198.383
+cap "distortionUnit_1.tgate_1.IN" "a_6866_35990#" 1.33568
+cap "distortionUnit_3.IN" "distortionUnit_5.IN" 185.605
+cap "ui_in[7]" "distortionUnit_6.myOpamp_0.INn" 30.0577
+cap "distortionUnit_7.IN" "ua[1]" 1367.8
+cap "distortionUnit_0.tgate_1.IN" "VPWR" 6911.9
+device msubckt sky130_fd_pr__nfet_01v8 26452 15147 26453 15148 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[7]" 60 0 "distortionUnit_7.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364
+device msubckt sky130_fd_pr__nfet_01v8 26368 15147 26369 15148 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[7]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_7.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 26284 15147 26285 15148 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[7]" 60 0 "distortionUnit_7.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 26200 15147 26201 15148 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[7]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_7.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 26116 15147 26117 15148 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[7]" 60 0 "distortionUnit_7.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 26032 15147 26033 15148 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[7]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_7.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25948 15147 25949 15148 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[7]" 60 0 "distortionUnit_7.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25864 15147 25865 15148 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[7]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364 "distortionUnit_7.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__pfet_01v8_hvt 26452 15397 26453 15398 l=30 w=200 "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[7]" 60 0 "distortionUnit_7.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 10400,504
+device msubckt sky130_fd_pr__pfet_01v8_hvt 26368 15397 26369 15398 l=30 w=200 "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[7]" 60 0 "VPWR" 200 5400,254 "distortionUnit_7.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 26284 15397 26285 15398 l=30 w=200 "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[7]" 60 0 "distortionUnit_7.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 26200 15397 26201 15398 l=30 w=200 "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[7]" 60 0 "VPWR" 200 5400,254 "distortionUnit_7.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 26116 15397 26117 15398 l=30 w=200 "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[7]" 60 0 "distortionUnit_7.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 26032 15397 26033 15398 l=30 w=200 "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[7]" 60 0 "VPWR" 200 5400,254 "distortionUnit_7.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25948 15397 25949 15398 l=30 w=200 "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[7]" 60 0 "distortionUnit_7.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25864 15397 25865 15398 l=30 w=200 "distortionUnit_7.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[7]" 60 0 "VPWR" 200 10400,504 "distortionUnit_7.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__nfet_01v8 26375 16349 26376 16350 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[7]" 400 0 "distortionUnit_7.tgate_1.IN" 200 5800,258 "ua[1]" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 26117 16349 26118 16350 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[7]" 400 0 "ua[1]" 200 11600,516 "distortionUnit_7.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 26375 16845 26376 16846 l=200 w=200 "VPWR" "distortionUnit_7.tgate_1.CTRLB" 400 0 "ua[1]" 200 5800,258 "distortionUnit_7.tgate_1.IN" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 26117 16845 26118 16846 l=200 w=200 "VPWR" "distortionUnit_7.tgate_1.CTRLB" 400 0 "distortionUnit_7.tgate_1.IN" 200 11600,516 "ua[1]" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 26375 17809 26376 17810 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.tgate_1.CTRLB" 400 0 "distortionUnit_7.IN" 200 5800,258 "ua[1]" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 26117 17809 26118 17810 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.tgate_1.CTRLB" 400 0 "ua[1]" 200 11600,516 "distortionUnit_7.IN" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 24860 15410 24861 15411 l=1968 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_24860_15410#" 0 0 "distortionUnit_7.tgate_1.IN" 70 30240,1004 "distortionUnit_7.myOpamp_0.INn" 70 30240,1004
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 23252 14978 23253 14979 l=768 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_23252_14978#" 0 0 "a_22820_14978#" 70 30240,1004 "distortionUnit_7.myOpamp_0.INn" 70 30240,1004
+device msubckt sky130_fd_pr__nfet_01v8 13270 15277 13271 15278 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[6]" 60 0 "distortionUnit_0.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364
+device msubckt sky130_fd_pr__nfet_01v8 13186 15277 13187 15278 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[6]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_0.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 13102 15277 13103 15278 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[6]" 60 0 "distortionUnit_0.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 13018 15277 13019 15278 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[6]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_0.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12934 15277 12935 15278 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[6]" 60 0 "distortionUnit_0.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12850 15277 12851 15278 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[6]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_0.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12766 15277 12767 15278 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[6]" 60 0 "distortionUnit_0.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12682 15277 12683 15278 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[6]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364 "distortionUnit_0.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 23572 16357 23573 16358 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 23314 16357 23315 16358 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 23056 16357 23057 16358 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22798 16357 22799 16358 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_20090_16222#" 400 0 "a_21192_16677#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22540 16357 22541 16358 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_20090_16222#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_21192_16677#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22282 16357 22283 16358 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_20090_16222#" 400 0 "a_20090_16222#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22024 16357 22025 16358 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_20090_16222#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_20090_16222#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21766 16357 21767 16358 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_20090_16222#" 400 0 "a_21192_16677#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21508 16357 21509 16358 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_20090_16222#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_21192_16677#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21250 16357 21251 16358 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 20992 16357 20993 16358 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 20734 16357 20735 16358 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 4872,284
+device msubckt sky130_fd_pr__nfet_01v8 23572 16677 23573 16678 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_7.tgate_1.IN" 200 5800,258 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 23314 16677 23315 16678 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.myOpamp_0.INn" 400 0 "a_21192_16677#" 200 5800,258 "distortionUnit_7.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 23056 16677 23057 16678 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.IN" 400 0 "a_20934_16677#" 200 5800,258 "a_21192_16677#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22798 16677 22799 16678 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.IN" 400 0 "a_21192_16677#" 200 5800,258 "a_20934_16677#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22540 16677 22541 16678 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.myOpamp_0.INn" 400 0 "distortionUnit_7.tgate_1.IN" 200 5800,258 "a_21192_16677#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22282 16677 22283 16678 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.myOpamp_0.INn" 400 0 "a_21192_16677#" 200 5800,258 "distortionUnit_7.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22024 16677 22025 16678 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.IN" 400 0 "a_20934_16677#" 200 5800,258 "a_21192_16677#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21766 16677 21767 16678 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.IN" 400 0 "a_21192_16677#" 200 5800,258 "a_20934_16677#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21508 16677 21509 16678 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.myOpamp_0.INn" 400 0 "distortionUnit_7.tgate_1.IN" 200 5800,258 "a_21192_16677#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21250 16677 21251 16678 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.myOpamp_0.INn" 400 0 "a_21192_16677#" 200 5800,258 "distortionUnit_7.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 20992 16677 20993 16678 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_7.IN" 400 0 "a_20934_16677#" 200 5800,258 "a_21192_16677#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 20734 16677 20735 16678 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516 "a_20934_16677#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 23572 17104 23573 17105 l=200 w=200 "VPWR" "VPWR" 400 0 "distortionUnit_7.tgate_1.IN" 200 5800,258 "VPWR" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 23314 17104 23315 17105 l=200 w=200 "VPWR" "a_20934_16677#" 400 0 "VPWR" 200 5800,258 "distortionUnit_7.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 23056 17104 23057 17105 l=200 w=200 "VPWR" "a_20934_16677#" 400 0 "a_20934_16677#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 22798 17104 22799 17105 l=200 w=200 "VPWR" "a_20934_16677#" 400 0 "VPWR" 200 5800,258 "a_20934_16677#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 22540 17104 22541 17105 l=200 w=200 "VPWR" "a_20934_16677#" 400 0 "distortionUnit_7.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 22282 17104 22283 17105 l=200 w=200 "VPWR" "a_20934_16677#" 400 0 "VPWR" 200 5800,258 "distortionUnit_7.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 22024 17104 22025 17105 l=200 w=200 "VPWR" "a_20934_16677#" 400 0 "a_20934_16677#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21766 17104 21767 17105 l=200 w=200 "VPWR" "a_20934_16677#" 400 0 "VPWR" 200 5800,258 "a_20934_16677#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21508 17104 21509 17105 l=200 w=200 "VPWR" "a_20934_16677#" 400 0 "distortionUnit_7.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21250 17104 21251 17105 l=200 w=200 "VPWR" "a_20934_16677#" 400 0 "VPWR" 200 5800,258 "distortionUnit_7.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 20992 17104 20993 17105 l=200 w=200 "VPWR" "a_20934_16677#" 400 0 "a_20934_16677#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 20734 17104 20735 17105 l=200 w=200 "VPWR" "VPWR" 400 0 "VPWR" 200 11600,516 "a_20934_16677#" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 19386 16222 19387 16223 l=5190 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19386_16222#" 0 0 "VPWR" 70 30240,1004 "a_20090_16222#" 70 30240,1004
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13270 15527 13271 15528 l=30 w=200 "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[6]" 60 0 "distortionUnit_0.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 10400,504
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13186 15527 13187 15528 l=30 w=200 "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[6]" 60 0 "VPWR" 200 5400,254 "distortionUnit_0.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13102 15527 13103 15528 l=30 w=200 "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[6]" 60 0 "distortionUnit_0.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13018 15527 13019 15528 l=30 w=200 "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[6]" 60 0 "VPWR" 200 5400,254 "distortionUnit_0.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12934 15527 12935 15528 l=30 w=200 "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[6]" 60 0 "distortionUnit_0.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12850 15527 12851 15528 l=30 w=200 "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[6]" 60 0 "VPWR" 200 5400,254 "distortionUnit_0.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12766 15527 12767 15528 l=30 w=200 "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[6]" 60 0 "distortionUnit_0.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12682 15527 12683 15528 l=30 w=200 "distortionUnit_0.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[6]" 60 0 "VPWR" 200 10400,504 "distortionUnit_0.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__nfet_01v8 13193 16479 13194 16480 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[6]" 400 0 "distortionUnit_0.tgate_1.IN" 200 5800,258 "distortionUnit_7.IN" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 12935 16479 12936 16480 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[6]" 400 0 "distortionUnit_7.IN" 200 11600,516 "distortionUnit_0.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 13193 16975 13194 16976 l=200 w=200 "VPWR" "distortionUnit_0.tgate_1.CTRLB" 400 0 "distortionUnit_7.IN" 200 5800,258 "distortionUnit_0.tgate_1.IN" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 12935 16975 12936 16976 l=200 w=200 "VPWR" "distortionUnit_0.tgate_1.CTRLB" 400 0 "distortionUnit_0.tgate_1.IN" 200 11600,516 "distortionUnit_7.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 13193 17939 13194 17940 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.tgate_1.CTRLB" 400 0 "distortionUnit_6.OUT" 200 5800,258 "distortionUnit_7.IN" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 12935 17939 12936 17940 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.tgate_1.CTRLB" 400 0 "distortionUnit_7.IN" 200 11600,516 "distortionUnit_6.OUT" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 11678 15540 11679 15541 l=1968 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_11678_15540#" 0 0 "distortionUnit_0.tgate_1.IN" 70 30240,1004 "distortionUnit_0.myOpamp_0.INn" 70 30240,1004
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 10070 15108 10071 15109 l=768 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_10070_15108#" 0 0 "a_9638_15108#" 70 30240,1004 "distortionUnit_0.myOpamp_0.INn" 70 30240,1004
+device msubckt sky130_fd_pr__nfet_01v8 10390 16487 10391 16488 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 10132 16487 10133 16488 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9874 16487 9875 16488 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9616 16487 9617 16488 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6908_16352#" 400 0 "a_8010_16807#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9358 16487 9359 16488 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6908_16352#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_8010_16807#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9100 16487 9101 16488 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6908_16352#" 400 0 "a_6908_16352#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8842 16487 8843 16488 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6908_16352#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_6908_16352#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8584 16487 8585 16488 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6908_16352#" 400 0 "a_8010_16807#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8326 16487 8327 16488 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6908_16352#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_8010_16807#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8068 16487 8069 16488 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 7810 16487 7811 16488 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 7552 16487 7553 16488 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 4872,284
+device msubckt sky130_fd_pr__nfet_01v8 10390 16807 10391 16808 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.tgate_1.IN" 200 5800,258 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 10132 16807 10133 16808 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.myOpamp_0.INn" 400 0 "a_8010_16807#" 200 5800,258 "distortionUnit_0.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9874 16807 9875 16808 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.OUT" 400 0 "a_7752_16807#" 200 5800,258 "a_8010_16807#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9616 16807 9617 16808 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.OUT" 400 0 "a_8010_16807#" 200 5800,258 "a_7752_16807#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9358 16807 9359 16808 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.myOpamp_0.INn" 400 0 "distortionUnit_0.tgate_1.IN" 200 5800,258 "a_8010_16807#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9100 16807 9101 16808 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.myOpamp_0.INn" 400 0 "a_8010_16807#" 200 5800,258 "distortionUnit_0.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8842 16807 8843 16808 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.OUT" 400 0 "a_7752_16807#" 200 5800,258 "a_8010_16807#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8584 16807 8585 16808 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.OUT" 400 0 "a_8010_16807#" 200 5800,258 "a_7752_16807#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8326 16807 8327 16808 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.myOpamp_0.INn" 400 0 "distortionUnit_0.tgate_1.IN" 200 5800,258 "a_8010_16807#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8068 16807 8069 16808 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.myOpamp_0.INn" 400 0 "a_8010_16807#" 200 5800,258 "distortionUnit_0.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 7810 16807 7811 16808 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.OUT" 400 0 "a_7752_16807#" 200 5800,258 "a_8010_16807#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 7552 16807 7553 16808 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516 "a_7752_16807#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 10390 17234 10391 17235 l=200 w=200 "VPWR" "VPWR" 400 0 "distortionUnit_0.tgate_1.IN" 200 5800,258 "VPWR" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 10132 17234 10133 17235 l=200 w=200 "VPWR" "a_7752_16807#" 400 0 "VPWR" 200 5800,258 "distortionUnit_0.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9874 17234 9875 17235 l=200 w=200 "VPWR" "a_7752_16807#" 400 0 "a_7752_16807#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9616 17234 9617 17235 l=200 w=200 "VPWR" "a_7752_16807#" 400 0 "VPWR" 200 5800,258 "a_7752_16807#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9358 17234 9359 17235 l=200 w=200 "VPWR" "a_7752_16807#" 400 0 "distortionUnit_0.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9100 17234 9101 17235 l=200 w=200 "VPWR" "a_7752_16807#" 400 0 "VPWR" 200 5800,258 "distortionUnit_0.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8842 17234 8843 17235 l=200 w=200 "VPWR" "a_7752_16807#" 400 0 "a_7752_16807#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8584 17234 8585 17235 l=200 w=200 "VPWR" "a_7752_16807#" 400 0 "VPWR" 200 5800,258 "a_7752_16807#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8326 17234 8327 17235 l=200 w=200 "VPWR" "a_7752_16807#" 400 0 "distortionUnit_0.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8068 17234 8069 17235 l=200 w=200 "VPWR" "a_7752_16807#" 400 0 "VPWR" 200 5800,258 "distortionUnit_0.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 7810 17234 7811 17235 l=200 w=200 "VPWR" "a_7752_16807#" 400 0 "a_7752_16807#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 7552 17234 7553 17235 l=200 w=200 "VPWR" "VPWR" 400 0 "VPWR" 200 11600,516 "a_7752_16807#" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 6204 16352 6205 16353 l=5190 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6204_16352#" 0 0 "VPWR" 70 30240,1004 "a_6908_16352#" 70 30240,1004
+device msubckt sky130_fd_pr__pfet_01v8 26375 18305 26376 18306 l=200 w=200 "VPWR" "ui_in[7]" 400 0 "ua[1]" 200 5800,258 "distortionUnit_7.IN" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 26117 18305 26118 18306 l=200 w=200 "VPWR" "ui_in[7]" 400 0 "distortionUnit_7.IN" 200 11600,516 "ua[1]" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 13193 18435 13194 18436 l=200 w=200 "VPWR" "ui_in[6]" 400 0 "distortionUnit_7.IN" 200 5800,258 "distortionUnit_6.OUT" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 12935 18435 12936 18436 l=200 w=200 "VPWR" "ui_in[6]" 400 0 "distortionUnit_6.OUT" 200 11600,516 "distortionUnit_7.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 26102 22193 26103 22194 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[5]" 60 0 "distortionUnit_6.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364
+device msubckt sky130_fd_pr__nfet_01v8 26018 22193 26019 22194 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[5]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_6.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25934 22193 25935 22194 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[5]" 60 0 "distortionUnit_6.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25850 22193 25851 22194 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[5]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_6.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25766 22193 25767 22194 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[5]" 60 0 "distortionUnit_6.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25682 22193 25683 22194 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[5]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_6.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25598 22193 25599 22194 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[5]" 60 0 "distortionUnit_6.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25514 22193 25515 22194 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[5]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364 "distortionUnit_6.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__pfet_01v8_hvt 26102 22443 26103 22444 l=30 w=200 "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[5]" 60 0 "distortionUnit_6.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 10400,504
+device msubckt sky130_fd_pr__pfet_01v8_hvt 26018 22443 26019 22444 l=30 w=200 "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[5]" 60 0 "VPWR" 200 5400,254 "distortionUnit_6.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25934 22443 25935 22444 l=30 w=200 "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[5]" 60 0 "distortionUnit_6.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25850 22443 25851 22444 l=30 w=200 "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[5]" 60 0 "VPWR" 200 5400,254 "distortionUnit_6.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25766 22443 25767 22444 l=30 w=200 "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[5]" 60 0 "distortionUnit_6.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25682 22443 25683 22444 l=30 w=200 "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[5]" 60 0 "VPWR" 200 5400,254 "distortionUnit_6.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25598 22443 25599 22444 l=30 w=200 "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[5]" 60 0 "distortionUnit_6.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25514 22443 25515 22444 l=30 w=200 "distortionUnit_6.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[5]" 60 0 "VPWR" 200 10400,504 "distortionUnit_6.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__nfet_01v8 26025 23395 26026 23396 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[5]" 400 0 "distortionUnit_6.tgate_1.IN" 200 5800,258 "distortionUnit_6.OUT" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 25767 23395 25768 23396 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[5]" 400 0 "distortionUnit_6.OUT" 200 11600,516 "distortionUnit_6.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 26025 23891 26026 23892 l=200 w=200 "VPWR" "distortionUnit_6.tgate_1.CTRLB" 400 0 "distortionUnit_6.OUT" 200 5800,258 "distortionUnit_6.tgate_1.IN" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 25767 23891 25768 23892 l=200 w=200 "VPWR" "distortionUnit_6.tgate_1.CTRLB" 400 0 "distortionUnit_6.tgate_1.IN" 200 11600,516 "distortionUnit_6.OUT" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 26025 24855 26026 24856 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.tgate_1.CTRLB" 400 0 "distortionUnit_6.IN" 200 5800,258 "distortionUnit_6.OUT" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 25767 24855 25768 24856 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.tgate_1.CTRLB" 400 0 "distortionUnit_6.OUT" 200 11600,516 "distortionUnit_6.IN" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 24510 22456 24511 22457 l=1968 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_24510_22456#" 0 0 "distortionUnit_6.tgate_1.IN" 70 30240,1004 "distortionUnit_6.myOpamp_0.INn" 70 30240,1004
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 22902 22024 22903 22025 l=768 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_22902_22024#" 0 0 "a_22470_22024#" 70 30240,1004 "distortionUnit_6.myOpamp_0.INn" 70 30240,1004
+device msubckt sky130_fd_pr__nfet_01v8 13394 22323 13395 22324 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[4]" 60 0 "distortionUnit_5.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364
+device msubckt sky130_fd_pr__nfet_01v8 13310 22323 13311 22324 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[4]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_5.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 13226 22323 13227 22324 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[4]" 60 0 "distortionUnit_5.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 13142 22323 13143 22324 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[4]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_5.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 13058 22323 13059 22324 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[4]" 60 0 "distortionUnit_5.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12974 22323 12975 22324 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[4]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_5.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12890 22323 12891 22324 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[4]" 60 0 "distortionUnit_5.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12806 22323 12807 22324 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[4]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364 "distortionUnit_5.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 23222 23403 23223 23404 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22964 23403 22965 23404 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22706 23403 22707 23404 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22448 23403 22449 23404 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19740_23268#" 400 0 "a_20842_23723#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22190 23403 22191 23404 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19740_23268#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_20842_23723#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21932 23403 21933 23404 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19740_23268#" 400 0 "a_19740_23268#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21674 23403 21675 23404 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19740_23268#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_19740_23268#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21416 23403 21417 23404 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19740_23268#" 400 0 "a_20842_23723#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21158 23403 21159 23404 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19740_23268#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_20842_23723#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 20900 23403 20901 23404 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 20642 23403 20643 23404 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 20384 23403 20385 23404 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 4872,284
+device msubckt sky130_fd_pr__nfet_01v8 23222 23723 23223 23724 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_6.tgate_1.IN" 200 5800,258 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 22964 23723 22965 23724 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.myOpamp_0.INn" 400 0 "a_20842_23723#" 200 5800,258 "distortionUnit_6.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22706 23723 22707 23724 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.IN" 400 0 "a_20584_23723#" 200 5800,258 "a_20842_23723#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22448 23723 22449 23724 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.IN" 400 0 "a_20842_23723#" 200 5800,258 "a_20584_23723#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22190 23723 22191 23724 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.myOpamp_0.INn" 400 0 "distortionUnit_6.tgate_1.IN" 200 5800,258 "a_20842_23723#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21932 23723 21933 23724 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.myOpamp_0.INn" 400 0 "a_20842_23723#" 200 5800,258 "distortionUnit_6.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21674 23723 21675 23724 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.IN" 400 0 "a_20584_23723#" 200 5800,258 "a_20842_23723#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21416 23723 21417 23724 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.IN" 400 0 "a_20842_23723#" 200 5800,258 "a_20584_23723#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21158 23723 21159 23724 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.myOpamp_0.INn" 400 0 "distortionUnit_6.tgate_1.IN" 200 5800,258 "a_20842_23723#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 20900 23723 20901 23724 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.myOpamp_0.INn" 400 0 "a_20842_23723#" 200 5800,258 "distortionUnit_6.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 20642 23723 20643 23724 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_6.IN" 400 0 "a_20584_23723#" 200 5800,258 "a_20842_23723#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 20384 23723 20385 23724 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516 "a_20584_23723#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 23222 24150 23223 24151 l=200 w=200 "VPWR" "VPWR" 400 0 "distortionUnit_6.tgate_1.IN" 200 5800,258 "VPWR" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 22964 24150 22965 24151 l=200 w=200 "VPWR" "a_20584_23723#" 400 0 "VPWR" 200 5800,258 "distortionUnit_6.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 22706 24150 22707 24151 l=200 w=200 "VPWR" "a_20584_23723#" 400 0 "a_20584_23723#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 22448 24150 22449 24151 l=200 w=200 "VPWR" "a_20584_23723#" 400 0 "VPWR" 200 5800,258 "a_20584_23723#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 22190 24150 22191 24151 l=200 w=200 "VPWR" "a_20584_23723#" 400 0 "distortionUnit_6.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21932 24150 21933 24151 l=200 w=200 "VPWR" "a_20584_23723#" 400 0 "VPWR" 200 5800,258 "distortionUnit_6.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21674 24150 21675 24151 l=200 w=200 "VPWR" "a_20584_23723#" 400 0 "a_20584_23723#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21416 24150 21417 24151 l=200 w=200 "VPWR" "a_20584_23723#" 400 0 "VPWR" 200 5800,258 "a_20584_23723#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21158 24150 21159 24151 l=200 w=200 "VPWR" "a_20584_23723#" 400 0 "distortionUnit_6.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 20900 24150 20901 24151 l=200 w=200 "VPWR" "a_20584_23723#" 400 0 "VPWR" 200 5800,258 "distortionUnit_6.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 20642 24150 20643 24151 l=200 w=200 "VPWR" "a_20584_23723#" 400 0 "a_20584_23723#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 20384 24150 20385 24151 l=200 w=200 "VPWR" "VPWR" 400 0 "VPWR" 200 11600,516 "a_20584_23723#" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 19036 23268 19037 23269 l=5190 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19036_23268#" 0 0 "VPWR" 70 30240,1004 "a_19740_23268#" 70 30240,1004
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13394 22573 13395 22574 l=30 w=200 "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[4]" 60 0 "distortionUnit_5.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 10400,504
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13310 22573 13311 22574 l=30 w=200 "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[4]" 60 0 "VPWR" 200 5400,254 "distortionUnit_5.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13226 22573 13227 22574 l=30 w=200 "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[4]" 60 0 "distortionUnit_5.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13142 22573 13143 22574 l=30 w=200 "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[4]" 60 0 "VPWR" 200 5400,254 "distortionUnit_5.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13058 22573 13059 22574 l=30 w=200 "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[4]" 60 0 "distortionUnit_5.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12974 22573 12975 22574 l=30 w=200 "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[4]" 60 0 "VPWR" 200 5400,254 "distortionUnit_5.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12890 22573 12891 22574 l=30 w=200 "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[4]" 60 0 "distortionUnit_5.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12806 22573 12807 22574 l=30 w=200 "distortionUnit_5.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[4]" 60 0 "VPWR" 200 10400,504 "distortionUnit_5.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__nfet_01v8 13317 23525 13318 23526 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[4]" 400 0 "distortionUnit_5.tgate_1.IN" 200 5800,258 "distortionUnit_6.IN" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 13059 23525 13060 23526 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[4]" 400 0 "distortionUnit_6.IN" 200 11600,516 "distortionUnit_5.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 13317 24021 13318 24022 l=200 w=200 "VPWR" "distortionUnit_5.tgate_1.CTRLB" 400 0 "distortionUnit_6.IN" 200 5800,258 "distortionUnit_5.tgate_1.IN" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 13059 24021 13060 24022 l=200 w=200 "VPWR" "distortionUnit_5.tgate_1.CTRLB" 400 0 "distortionUnit_5.tgate_1.IN" 200 11600,516 "distortionUnit_6.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 13317 24985 13318 24986 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.tgate_1.CTRLB" 400 0 "distortionUnit_5.IN" 200 5800,258 "distortionUnit_6.IN" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 13059 24985 13060 24986 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.tgate_1.CTRLB" 400 0 "distortionUnit_6.IN" 200 11600,516 "distortionUnit_5.IN" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 11802 22586 11803 22587 l=1968 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_11802_22586#" 0 0 "distortionUnit_5.tgate_1.IN" 70 30240,1004 "distortionUnit_5.myOpamp_0.INn" 70 30240,1004
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 10194 22154 10195 22155 l=768 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_10194_22154#" 0 0 "a_9762_22154#" 70 30240,1004 "distortionUnit_5.myOpamp_0.INn" 70 30240,1004
+device msubckt sky130_fd_pr__nfet_01v8 10514 23533 10515 23534 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 10256 23533 10257 23534 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9998 23533 9999 23534 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9740 23533 9741 23534 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_7032_23398#" 400 0 "a_8134_23853#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9482 23533 9483 23534 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_7032_23398#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_8134_23853#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9224 23533 9225 23534 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_7032_23398#" 400 0 "a_7032_23398#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8966 23533 8967 23534 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_7032_23398#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_7032_23398#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8708 23533 8709 23534 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_7032_23398#" 400 0 "a_8134_23853#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8450 23533 8451 23534 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_7032_23398#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_8134_23853#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8192 23533 8193 23534 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 7934 23533 7935 23534 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 7676 23533 7677 23534 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 4872,284
+device msubckt sky130_fd_pr__nfet_01v8 10514 23853 10515 23854 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_5.tgate_1.IN" 200 5800,258 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 10256 23853 10257 23854 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.myOpamp_0.INn" 400 0 "a_8134_23853#" 200 5800,258 "distortionUnit_5.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9998 23853 9999 23854 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.IN" 400 0 "a_7876_23853#" 200 5800,258 "a_8134_23853#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9740 23853 9741 23854 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.IN" 400 0 "a_8134_23853#" 200 5800,258 "a_7876_23853#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9482 23853 9483 23854 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.myOpamp_0.INn" 400 0 "distortionUnit_5.tgate_1.IN" 200 5800,258 "a_8134_23853#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9224 23853 9225 23854 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.myOpamp_0.INn" 400 0 "a_8134_23853#" 200 5800,258 "distortionUnit_5.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8966 23853 8967 23854 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.IN" 400 0 "a_7876_23853#" 200 5800,258 "a_8134_23853#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8708 23853 8709 23854 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.IN" 400 0 "a_8134_23853#" 200 5800,258 "a_7876_23853#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8450 23853 8451 23854 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.myOpamp_0.INn" 400 0 "distortionUnit_5.tgate_1.IN" 200 5800,258 "a_8134_23853#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8192 23853 8193 23854 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.myOpamp_0.INn" 400 0 "a_8134_23853#" 200 5800,258 "distortionUnit_5.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 7934 23853 7935 23854 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_5.IN" 400 0 "a_7876_23853#" 200 5800,258 "a_8134_23853#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 7676 23853 7677 23854 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516 "a_7876_23853#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 10514 24280 10515 24281 l=200 w=200 "VPWR" "VPWR" 400 0 "distortionUnit_5.tgate_1.IN" 200 5800,258 "VPWR" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 10256 24280 10257 24281 l=200 w=200 "VPWR" "a_7876_23853#" 400 0 "VPWR" 200 5800,258 "distortionUnit_5.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9998 24280 9999 24281 l=200 w=200 "VPWR" "a_7876_23853#" 400 0 "a_7876_23853#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9740 24280 9741 24281 l=200 w=200 "VPWR" "a_7876_23853#" 400 0 "VPWR" 200 5800,258 "a_7876_23853#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9482 24280 9483 24281 l=200 w=200 "VPWR" "a_7876_23853#" 400 0 "distortionUnit_5.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9224 24280 9225 24281 l=200 w=200 "VPWR" "a_7876_23853#" 400 0 "VPWR" 200 5800,258 "distortionUnit_5.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8966 24280 8967 24281 l=200 w=200 "VPWR" "a_7876_23853#" 400 0 "a_7876_23853#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8708 24280 8709 24281 l=200 w=200 "VPWR" "a_7876_23853#" 400 0 "VPWR" 200 5800,258 "a_7876_23853#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8450 24280 8451 24281 l=200 w=200 "VPWR" "a_7876_23853#" 400 0 "distortionUnit_5.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8192 24280 8193 24281 l=200 w=200 "VPWR" "a_7876_23853#" 400 0 "VPWR" 200 5800,258 "distortionUnit_5.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 7934 24280 7935 24281 l=200 w=200 "VPWR" "a_7876_23853#" 400 0 "a_7876_23853#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 7676 24280 7677 24281 l=200 w=200 "VPWR" "VPWR" 400 0 "VPWR" 200 11600,516 "a_7876_23853#" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 6328 23398 6329 23399 l=5190 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6328_23398#" 0 0 "VPWR" 70 30240,1004 "a_7032_23398#" 70 30240,1004
+device msubckt sky130_fd_pr__pfet_01v8 26025 25351 26026 25352 l=200 w=200 "VPWR" "ui_in[5]" 400 0 "distortionUnit_6.OUT" 200 5800,258 "distortionUnit_6.IN" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 25767 25351 25768 25352 l=200 w=200 "VPWR" "ui_in[5]" 400 0 "distortionUnit_6.IN" 200 11600,516 "distortionUnit_6.OUT" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 13317 25481 13318 25482 l=200 w=200 "VPWR" "ui_in[4]" 400 0 "distortionUnit_6.IN" 200 5800,258 "distortionUnit_5.IN" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 13059 25481 13060 25482 l=200 w=200 "VPWR" "ui_in[4]" 400 0 "distortionUnit_5.IN" 200 11600,516 "distortionUnit_6.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 26006 28951 26007 28952 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[3]" 60 0 "distortionUnit_4.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364
+device msubckt sky130_fd_pr__nfet_01v8 25922 28951 25923 28952 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[3]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_4.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25838 28951 25839 28952 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[3]" 60 0 "distortionUnit_4.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25754 28951 25755 28952 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[3]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_4.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25670 28951 25671 28952 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[3]" 60 0 "distortionUnit_4.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25586 28951 25587 28952 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[3]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_4.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25502 28951 25503 28952 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[3]" 60 0 "distortionUnit_4.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25418 28951 25419 28952 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[3]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364 "distortionUnit_4.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__pfet_01v8_hvt 26006 29201 26007 29202 l=30 w=200 "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[3]" 60 0 "distortionUnit_4.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 10400,504
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25922 29201 25923 29202 l=30 w=200 "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[3]" 60 0 "VPWR" 200 5400,254 "distortionUnit_4.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25838 29201 25839 29202 l=30 w=200 "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[3]" 60 0 "distortionUnit_4.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25754 29201 25755 29202 l=30 w=200 "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[3]" 60 0 "VPWR" 200 5400,254 "distortionUnit_4.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25670 29201 25671 29202 l=30 w=200 "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[3]" 60 0 "distortionUnit_4.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25586 29201 25587 29202 l=30 w=200 "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[3]" 60 0 "VPWR" 200 5400,254 "distortionUnit_4.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25502 29201 25503 29202 l=30 w=200 "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[3]" 60 0 "distortionUnit_4.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25418 29201 25419 29202 l=30 w=200 "distortionUnit_4.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[3]" 60 0 "VPWR" 200 10400,504 "distortionUnit_4.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__nfet_01v8 25929 30153 25930 30154 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[3]" 400 0 "distortionUnit_4.tgate_1.IN" 200 5800,258 "distortionUnit_5.IN" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 25671 30153 25672 30154 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[3]" 400 0 "distortionUnit_5.IN" 200 11600,516 "distortionUnit_4.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 25929 30649 25930 30650 l=200 w=200 "VPWR" "distortionUnit_4.tgate_1.CTRLB" 400 0 "distortionUnit_5.IN" 200 5800,258 "distortionUnit_4.tgate_1.IN" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 25671 30649 25672 30650 l=200 w=200 "VPWR" "distortionUnit_4.tgate_1.CTRLB" 400 0 "distortionUnit_4.tgate_1.IN" 200 11600,516 "distortionUnit_5.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 25929 31613 25930 31614 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.tgate_1.CTRLB" 400 0 "distortionUnit_4.IN" 200 5800,258 "distortionUnit_5.IN" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 25671 31613 25672 31614 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.tgate_1.CTRLB" 400 0 "distortionUnit_5.IN" 200 11600,516 "distortionUnit_4.IN" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 24414 29214 24415 29215 l=1968 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_24414_29214#" 0 0 "distortionUnit_4.tgate_1.IN" 70 30240,1004 "distortionUnit_4.myOpamp_0.INn" 70 30240,1004
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 22806 28782 22807 28783 l=768 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_22806_28782#" 0 0 "a_22374_28782#" 70 30240,1004 "distortionUnit_4.myOpamp_0.INn" 70 30240,1004
+device msubckt sky130_fd_pr__nfet_01v8 13274 29027 13275 29028 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[2]" 60 0 "distortionUnit_3.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364
+device msubckt sky130_fd_pr__nfet_01v8 13190 29027 13191 29028 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[2]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_3.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 13106 29027 13107 29028 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[2]" 60 0 "distortionUnit_3.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 13022 29027 13023 29028 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[2]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_3.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12938 29027 12939 29028 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[2]" 60 0 "distortionUnit_3.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12854 29027 12855 29028 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[2]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_3.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12770 29027 12771 29028 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[2]" 60 0 "distortionUnit_3.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12686 29027 12687 29028 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[2]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364 "distortionUnit_3.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 23126 30161 23127 30162 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22868 30161 22869 30162 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22610 30161 22611 30162 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22352 30161 22353 30162 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19644_30026#" 400 0 "a_20746_30481#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22094 30161 22095 30162 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19644_30026#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_20746_30481#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21836 30161 21837 30162 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19644_30026#" 400 0 "a_19644_30026#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21578 30161 21579 30162 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19644_30026#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_19644_30026#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21320 30161 21321 30162 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19644_30026#" 400 0 "a_20746_30481#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21062 30161 21063 30162 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19644_30026#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_20746_30481#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 20804 30161 20805 30162 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 20546 30161 20547 30162 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 20288 30161 20289 30162 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 4872,284
+device msubckt sky130_fd_pr__nfet_01v8 23126 30481 23127 30482 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_4.tgate_1.IN" 200 5800,258 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 22868 30481 22869 30482 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.myOpamp_0.INn" 400 0 "a_20746_30481#" 200 5800,258 "distortionUnit_4.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22610 30481 22611 30482 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.IN" 400 0 "a_20488_30481#" 200 5800,258 "a_20746_30481#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22352 30481 22353 30482 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.IN" 400 0 "a_20746_30481#" 200 5800,258 "a_20488_30481#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22094 30481 22095 30482 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.myOpamp_0.INn" 400 0 "distortionUnit_4.tgate_1.IN" 200 5800,258 "a_20746_30481#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21836 30481 21837 30482 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.myOpamp_0.INn" 400 0 "a_20746_30481#" 200 5800,258 "distortionUnit_4.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21578 30481 21579 30482 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.IN" 400 0 "a_20488_30481#" 200 5800,258 "a_20746_30481#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21320 30481 21321 30482 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.IN" 400 0 "a_20746_30481#" 200 5800,258 "a_20488_30481#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21062 30481 21063 30482 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.myOpamp_0.INn" 400 0 "distortionUnit_4.tgate_1.IN" 200 5800,258 "a_20746_30481#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 20804 30481 20805 30482 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.myOpamp_0.INn" 400 0 "a_20746_30481#" 200 5800,258 "distortionUnit_4.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 20546 30481 20547 30482 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_4.IN" 400 0 "a_20488_30481#" 200 5800,258 "a_20746_30481#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 20288 30481 20289 30482 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516 "a_20488_30481#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 23126 30908 23127 30909 l=200 w=200 "VPWR" "VPWR" 400 0 "distortionUnit_4.tgate_1.IN" 200 5800,258 "VPWR" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 22868 30908 22869 30909 l=200 w=200 "VPWR" "a_20488_30481#" 400 0 "VPWR" 200 5800,258 "distortionUnit_4.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 22610 30908 22611 30909 l=200 w=200 "VPWR" "a_20488_30481#" 400 0 "a_20488_30481#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 22352 30908 22353 30909 l=200 w=200 "VPWR" "a_20488_30481#" 400 0 "VPWR" 200 5800,258 "a_20488_30481#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 22094 30908 22095 30909 l=200 w=200 "VPWR" "a_20488_30481#" 400 0 "distortionUnit_4.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21836 30908 21837 30909 l=200 w=200 "VPWR" "a_20488_30481#" 400 0 "VPWR" 200 5800,258 "distortionUnit_4.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21578 30908 21579 30909 l=200 w=200 "VPWR" "a_20488_30481#" 400 0 "a_20488_30481#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21320 30908 21321 30909 l=200 w=200 "VPWR" "a_20488_30481#" 400 0 "VPWR" 200 5800,258 "a_20488_30481#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21062 30908 21063 30909 l=200 w=200 "VPWR" "a_20488_30481#" 400 0 "distortionUnit_4.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 20804 30908 20805 30909 l=200 w=200 "VPWR" "a_20488_30481#" 400 0 "VPWR" 200 5800,258 "distortionUnit_4.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 20546 30908 20547 30909 l=200 w=200 "VPWR" "a_20488_30481#" 400 0 "a_20488_30481#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 20288 30908 20289 30909 l=200 w=200 "VPWR" "VPWR" 400 0 "VPWR" 200 11600,516 "a_20488_30481#" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 18940 30026 18941 30027 l=5190 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_18940_30026#" 0 0 "VPWR" 70 30240,1004 "a_19644_30026#" 70 30240,1004
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13274 29277 13275 29278 l=30 w=200 "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[2]" 60 0 "distortionUnit_3.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 10400,504
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13190 29277 13191 29278 l=30 w=200 "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[2]" 60 0 "VPWR" 200 5400,254 "distortionUnit_3.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13106 29277 13107 29278 l=30 w=200 "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[2]" 60 0 "distortionUnit_3.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13022 29277 13023 29278 l=30 w=200 "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[2]" 60 0 "VPWR" 200 5400,254 "distortionUnit_3.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12938 29277 12939 29278 l=30 w=200 "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[2]" 60 0 "distortionUnit_3.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12854 29277 12855 29278 l=30 w=200 "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[2]" 60 0 "VPWR" 200 5400,254 "distortionUnit_3.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12770 29277 12771 29278 l=30 w=200 "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[2]" 60 0 "distortionUnit_3.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12686 29277 12687 29278 l=30 w=200 "distortionUnit_3.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[2]" 60 0 "VPWR" 200 10400,504 "distortionUnit_3.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__nfet_01v8 13197 30229 13198 30230 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[2]" 400 0 "distortionUnit_3.tgate_1.IN" 200 5800,258 "distortionUnit_4.IN" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 12939 30229 12940 30230 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[2]" 400 0 "distortionUnit_4.IN" 200 11600,516 "distortionUnit_3.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 13197 30725 13198 30726 l=200 w=200 "VPWR" "distortionUnit_3.tgate_1.CTRLB" 400 0 "distortionUnit_4.IN" 200 5800,258 "distortionUnit_3.tgate_1.IN" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 12939 30725 12940 30726 l=200 w=200 "VPWR" "distortionUnit_3.tgate_1.CTRLB" 400 0 "distortionUnit_3.tgate_1.IN" 200 11600,516 "distortionUnit_4.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 13197 31689 13198 31690 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.tgate_1.CTRLB" 400 0 "distortionUnit_3.IN" 200 5800,258 "distortionUnit_4.IN" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 12939 31689 12940 31690 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.tgate_1.CTRLB" 400 0 "distortionUnit_4.IN" 200 11600,516 "distortionUnit_3.IN" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 11682 29290 11683 29291 l=1968 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_11682_29290#" 0 0 "distortionUnit_3.tgate_1.IN" 70 30240,1004 "distortionUnit_3.myOpamp_0.INn" 70 30240,1004
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 10074 28858 10075 28859 l=768 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_10074_28858#" 0 0 "a_9642_28858#" 70 30240,1004 "distortionUnit_3.myOpamp_0.INn" 70 30240,1004
+device msubckt sky130_fd_pr__nfet_01v8 10394 30237 10395 30238 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 10136 30237 10137 30238 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9878 30237 9879 30238 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9620 30237 9621 30238 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6912_30102#" 400 0 "a_8014_30557#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9362 30237 9363 30238 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6912_30102#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_8014_30557#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9104 30237 9105 30238 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6912_30102#" 400 0 "a_6912_30102#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8846 30237 8847 30238 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6912_30102#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_6912_30102#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8588 30237 8589 30238 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6912_30102#" 400 0 "a_8014_30557#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8330 30237 8331 30238 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6912_30102#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_8014_30557#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8072 30237 8073 30238 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 7814 30237 7815 30238 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 7556 30237 7557 30238 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 4872,284
+device msubckt sky130_fd_pr__nfet_01v8 10394 30557 10395 30558 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_3.tgate_1.IN" 200 5800,258 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 10136 30557 10137 30558 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.myOpamp_0.INn" 400 0 "a_8014_30557#" 200 5800,258 "distortionUnit_3.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9878 30557 9879 30558 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.IN" 400 0 "a_7756_30557#" 200 5800,258 "a_8014_30557#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9620 30557 9621 30558 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.IN" 400 0 "a_8014_30557#" 200 5800,258 "a_7756_30557#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9362 30557 9363 30558 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.myOpamp_0.INn" 400 0 "distortionUnit_3.tgate_1.IN" 200 5800,258 "a_8014_30557#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9104 30557 9105 30558 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.myOpamp_0.INn" 400 0 "a_8014_30557#" 200 5800,258 "distortionUnit_3.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8846 30557 8847 30558 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.IN" 400 0 "a_7756_30557#" 200 5800,258 "a_8014_30557#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8588 30557 8589 30558 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.IN" 400 0 "a_8014_30557#" 200 5800,258 "a_7756_30557#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8330 30557 8331 30558 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.myOpamp_0.INn" 400 0 "distortionUnit_3.tgate_1.IN" 200 5800,258 "a_8014_30557#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8072 30557 8073 30558 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.myOpamp_0.INn" 400 0 "a_8014_30557#" 200 5800,258 "distortionUnit_3.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 7814 30557 7815 30558 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_3.IN" 400 0 "a_7756_30557#" 200 5800,258 "a_8014_30557#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 7556 30557 7557 30558 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516 "a_7756_30557#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 10394 30984 10395 30985 l=200 w=200 "VPWR" "VPWR" 400 0 "distortionUnit_3.tgate_1.IN" 200 5800,258 "VPWR" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 10136 30984 10137 30985 l=200 w=200 "VPWR" "a_7756_30557#" 400 0 "VPWR" 200 5800,258 "distortionUnit_3.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9878 30984 9879 30985 l=200 w=200 "VPWR" "a_7756_30557#" 400 0 "a_7756_30557#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9620 30984 9621 30985 l=200 w=200 "VPWR" "a_7756_30557#" 400 0 "VPWR" 200 5800,258 "a_7756_30557#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9362 30984 9363 30985 l=200 w=200 "VPWR" "a_7756_30557#" 400 0 "distortionUnit_3.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9104 30984 9105 30985 l=200 w=200 "VPWR" "a_7756_30557#" 400 0 "VPWR" 200 5800,258 "distortionUnit_3.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8846 30984 8847 30985 l=200 w=200 "VPWR" "a_7756_30557#" 400 0 "a_7756_30557#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8588 30984 8589 30985 l=200 w=200 "VPWR" "a_7756_30557#" 400 0 "VPWR" 200 5800,258 "a_7756_30557#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8330 30984 8331 30985 l=200 w=200 "VPWR" "a_7756_30557#" 400 0 "distortionUnit_3.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8072 30984 8073 30985 l=200 w=200 "VPWR" "a_7756_30557#" 400 0 "VPWR" 200 5800,258 "distortionUnit_3.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 7814 30984 7815 30985 l=200 w=200 "VPWR" "a_7756_30557#" 400 0 "a_7756_30557#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 7556 30984 7557 30985 l=200 w=200 "VPWR" "VPWR" 400 0 "VPWR" 200 11600,516 "a_7756_30557#" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 6208 30102 6209 30103 l=5190 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6208_30102#" 0 0 "VPWR" 70 30240,1004 "a_6912_30102#" 70 30240,1004
+device msubckt sky130_fd_pr__pfet_01v8 25929 32109 25930 32110 l=200 w=200 "VPWR" "ui_in[3]" 400 0 "distortionUnit_5.IN" 200 5800,258 "distortionUnit_4.IN" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 25671 32109 25672 32110 l=200 w=200 "VPWR" "ui_in[3]" 400 0 "distortionUnit_4.IN" 200 11600,516 "distortionUnit_5.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 13197 32185 13198 32186 l=200 w=200 "VPWR" "ui_in[2]" 400 0 "distortionUnit_4.IN" 200 5800,258 "distortionUnit_3.IN" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 12939 32185 12940 32186 l=200 w=200 "VPWR" "ui_in[2]" 400 0 "distortionUnit_3.IN" 200 11600,516 "distortionUnit_4.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 26042 35071 26043 35072 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[1]" 60 0 "distortionUnit_2.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364
+device msubckt sky130_fd_pr__nfet_01v8 25958 35071 25959 35072 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[1]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_2.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25874 35071 25875 35072 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[1]" 60 0 "distortionUnit_2.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25790 35071 25791 35072 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[1]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_2.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25706 35071 25707 35072 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[1]" 60 0 "distortionUnit_2.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25622 35071 25623 35072 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[1]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_2.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25538 35071 25539 35072 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[1]" 60 0 "distortionUnit_2.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 25454 35071 25455 35072 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[1]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364 "distortionUnit_2.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__pfet_01v8_hvt 26042 35321 26043 35322 l=30 w=200 "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[1]" 60 0 "distortionUnit_2.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 10400,504
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25958 35321 25959 35322 l=30 w=200 "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[1]" 60 0 "VPWR" 200 5400,254 "distortionUnit_2.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25874 35321 25875 35322 l=30 w=200 "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[1]" 60 0 "distortionUnit_2.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25790 35321 25791 35322 l=30 w=200 "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[1]" 60 0 "VPWR" 200 5400,254 "distortionUnit_2.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25706 35321 25707 35322 l=30 w=200 "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[1]" 60 0 "distortionUnit_2.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25622 35321 25623 35322 l=30 w=200 "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[1]" 60 0 "VPWR" 200 5400,254 "distortionUnit_2.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25538 35321 25539 35322 l=30 w=200 "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[1]" 60 0 "distortionUnit_2.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 25454 35321 25455 35322 l=30 w=200 "distortionUnit_2.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[1]" 60 0 "VPWR" 200 10400,504 "distortionUnit_2.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__nfet_01v8 25965 36273 25966 36274 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[1]" 400 0 "distortionUnit_2.tgate_1.IN" 200 5800,258 "distortionUnit_3.IN" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 25707 36273 25708 36274 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[1]" 400 0 "distortionUnit_3.IN" 200 11600,516 "distortionUnit_2.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 25965 36769 25966 36770 l=200 w=200 "VPWR" "distortionUnit_2.tgate_1.CTRLB" 400 0 "distortionUnit_3.IN" 200 5800,258 "distortionUnit_2.tgate_1.IN" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 25707 36769 25708 36770 l=200 w=200 "VPWR" "distortionUnit_2.tgate_1.CTRLB" 400 0 "distortionUnit_2.tgate_1.IN" 200 11600,516 "distortionUnit_3.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 25965 37733 25966 37734 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.tgate_1.CTRLB" 400 0 "distortionUnit_2.IN" 200 5800,258 "distortionUnit_3.IN" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 25707 37733 25708 37734 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.tgate_1.CTRLB" 400 0 "distortionUnit_3.IN" 200 11600,516 "distortionUnit_2.IN" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 24450 35334 24451 35335 l=1968 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_24450_35334#" 0 0 "distortionUnit_2.tgate_1.IN" 70 30240,1004 "distortionUnit_2.myOpamp_0.INn" 70 30240,1004
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 22842 34902 22843 34903 l=768 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_22842_34902#" 0 0 "a_22410_34902#" 70 30240,1004 "distortionUnit_2.myOpamp_0.INn" 70 30240,1004
+device msubckt sky130_fd_pr__nfet_01v8 13228 34915 13229 34916 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[0]" 60 0 "distortionUnit_1.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364
+device msubckt sky130_fd_pr__nfet_01v8 13144 34915 13145 34916 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[0]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_1.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 13060 34915 13061 34916 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[0]" 60 0 "distortionUnit_1.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12976 34915 12977 34916 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[0]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_1.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12892 34915 12893 34916 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[0]" 60 0 "distortionUnit_1.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12808 34915 12809 34916 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[0]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184 "distortionUnit_1.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12724 34915 12725 34916 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[0]" 60 0 "distortionUnit_1.tgate_1.CTRLB" 130 3510,184 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 12640 34915 12641 34916 l=30 w=130 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[0]" 60 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 130 6760,364 "distortionUnit_1.tgate_1.CTRLB" 130 3510,184
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13228 35165 13229 35166 l=30 w=200 "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[0]" 60 0 "distortionUnit_1.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 10400,504
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13144 35165 13145 35166 l=30 w=200 "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[0]" 60 0 "VPWR" 200 5400,254 "distortionUnit_1.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 13060 35165 13061 35166 l=30 w=200 "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[0]" 60 0 "distortionUnit_1.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12976 35165 12977 35166 l=30 w=200 "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[0]" 60 0 "VPWR" 200 5400,254 "distortionUnit_1.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12892 35165 12893 35166 l=30 w=200 "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[0]" 60 0 "distortionUnit_1.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12808 35165 12809 35166 l=30 w=200 "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[0]" 60 0 "VPWR" 200 5400,254 "distortionUnit_1.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12724 35165 12725 35166 l=30 w=200 "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[0]" 60 0 "distortionUnit_1.tgate_1.CTRLB" 200 5400,254 "VPWR" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 12640 35165 12641 35166 l=30 w=200 "distortionUnit_1.sky130_fd_sc_hd__tap_2_0.VPB" "ui_in[0]" 60 0 "VPWR" 200 10400,504 "distortionUnit_1.tgate_1.CTRLB" 200 5400,254
+device msubckt sky130_fd_pr__nfet_01v8 23162 36281 23163 36282 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22904 36281 22905 36282 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22646 36281 22647 36282 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22388 36281 22389 36282 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19680_36146#" 400 0 "a_20782_36601#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 22130 36281 22131 36282 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19680_36146#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_20782_36601#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21872 36281 21873 36282 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19680_36146#" 400 0 "a_19680_36146#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21614 36281 21615 36282 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19680_36146#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_19680_36146#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21356 36281 21357 36282 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19680_36146#" 400 0 "a_20782_36601#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 21098 36281 21099 36282 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_19680_36146#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_20782_36601#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 20840 36281 20841 36282 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 20582 36281 20583 36282 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 20324 36281 20325 36282 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 4872,284
+device msubckt sky130_fd_pr__nfet_01v8 23162 36601 23163 36602 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_2.tgate_1.IN" 200 5800,258 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 22904 36601 22905 36602 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.myOpamp_0.INn" 400 0 "a_20782_36601#" 200 5800,258 "distortionUnit_2.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22646 36601 22647 36602 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.IN" 400 0 "a_20524_36601#" 200 5800,258 "a_20782_36601#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22388 36601 22389 36602 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.IN" 400 0 "a_20782_36601#" 200 5800,258 "a_20524_36601#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22130 36601 22131 36602 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.myOpamp_0.INn" 400 0 "distortionUnit_2.tgate_1.IN" 200 5800,258 "a_20782_36601#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21872 36601 21873 36602 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.myOpamp_0.INn" 400 0 "a_20782_36601#" 200 5800,258 "distortionUnit_2.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21614 36601 21615 36602 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.IN" 400 0 "a_20524_36601#" 200 5800,258 "a_20782_36601#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21356 36601 21357 36602 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.IN" 400 0 "a_20782_36601#" 200 5800,258 "a_20524_36601#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 21098 36601 21099 36602 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.myOpamp_0.INn" 400 0 "distortionUnit_2.tgate_1.IN" 200 5800,258 "a_20782_36601#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 20840 36601 20841 36602 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.myOpamp_0.INn" 400 0 "a_20782_36601#" 200 5800,258 "distortionUnit_2.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 20582 36601 20583 36602 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_2.IN" 400 0 "a_20524_36601#" 200 5800,258 "a_20782_36601#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 20324 36601 20325 36602 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516 "a_20524_36601#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 23162 37028 23163 37029 l=200 w=200 "VPWR" "VPWR" 400 0 "distortionUnit_2.tgate_1.IN" 200 5800,258 "VPWR" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 22904 37028 22905 37029 l=200 w=200 "VPWR" "a_20524_36601#" 400 0 "VPWR" 200 5800,258 "distortionUnit_2.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 22646 37028 22647 37029 l=200 w=200 "VPWR" "a_20524_36601#" 400 0 "a_20524_36601#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 22388 37028 22389 37029 l=200 w=200 "VPWR" "a_20524_36601#" 400 0 "VPWR" 200 5800,258 "a_20524_36601#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 22130 37028 22131 37029 l=200 w=200 "VPWR" "a_20524_36601#" 400 0 "distortionUnit_2.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21872 37028 21873 37029 l=200 w=200 "VPWR" "a_20524_36601#" 400 0 "VPWR" 200 5800,258 "distortionUnit_2.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21614 37028 21615 37029 l=200 w=200 "VPWR" "a_20524_36601#" 400 0 "a_20524_36601#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21356 37028 21357 37029 l=200 w=200 "VPWR" "a_20524_36601#" 400 0 "VPWR" 200 5800,258 "a_20524_36601#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 21098 37028 21099 37029 l=200 w=200 "VPWR" "a_20524_36601#" 400 0 "distortionUnit_2.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 20840 37028 20841 37029 l=200 w=200 "VPWR" "a_20524_36601#" 400 0 "VPWR" 200 5800,258 "distortionUnit_2.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 20582 37028 20583 37029 l=200 w=200 "VPWR" "a_20524_36601#" 400 0 "a_20524_36601#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 20324 37028 20325 37029 l=200 w=200 "VPWR" "VPWR" 400 0 "VPWR" 200 11600,516 "a_20524_36601#" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 18976 36146 18977 36147 l=5190 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_18976_36146#" 0 0 "VPWR" 70 30240,1004 "a_19680_36146#" 70 30240,1004
+device msubckt sky130_fd_pr__nfet_01v8 13151 36117 13152 36118 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[0]" 400 0 "distortionUnit_1.tgate_1.IN" 200 5800,258 "distortionUnit_2.IN" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 12893 36117 12894 36118 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ui_in[0]" 400 0 "distortionUnit_2.IN" 200 11600,516 "distortionUnit_1.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 13151 36613 13152 36614 l=200 w=200 "VPWR" "distortionUnit_1.tgate_1.CTRLB" 400 0 "distortionUnit_2.IN" 200 5800,258 "distortionUnit_1.tgate_1.IN" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 12893 36613 12894 36614 l=200 w=200 "VPWR" "distortionUnit_1.tgate_1.CTRLB" 400 0 "distortionUnit_1.tgate_1.IN" 200 11600,516 "distortionUnit_2.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 13151 37577 13152 37578 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.tgate_1.CTRLB" 400 0 "ua[0]" 200 5800,258 "distortionUnit_2.IN" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 12893 37577 12894 37578 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.tgate_1.CTRLB" 400 0 "distortionUnit_2.IN" 200 11600,516 "ua[0]" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 11636 35178 11637 35179 l=1968 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_11636_35178#" 0 0 "distortionUnit_1.tgate_1.IN" 70 30240,1004 "distortionUnit_1.myOpamp_0.INn" 70 30240,1004
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 10028 34746 10029 34747 l=768 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_10028_34746#" 0 0 "a_9596_34746#" 70 30240,1004 "distortionUnit_1.myOpamp_0.INn" 70 30240,1004
+device msubckt sky130_fd_pr__nfet_01v8 10348 36125 10349 36126 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 10090 36125 10091 36126 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9832 36125 9833 36126 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9574 36125 9575 36126 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6866_35990#" 400 0 "a_7968_36445#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9316 36125 9317 36126 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6866_35990#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_7968_36445#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 9058 36125 9059 36126 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6866_35990#" 400 0 "a_6866_35990#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8800 36125 8801 36126 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6866_35990#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_6866_35990#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8542 36125 8543 36126 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6866_35990#" 400 0 "a_7968_36445#" 84 2436,142 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8284 36125 8285 36126 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6866_35990#" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 84 2436,142 "a_7968_36445#" 84 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 8026 36125 8027 36126 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 7768 36125 7769 36126 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 2436,142
+device msubckt sky130_fd_pr__nfet_01v8 7510 36125 7511 36126 l=200 w=84 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 0 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 168 4872,284
+device msubckt sky130_fd_pr__nfet_01v8 10348 36445 10349 36446 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_1.tgate_1.IN" 200 5800,258 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 10090 36445 10091 36446 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.myOpamp_0.INn" 400 0 "a_7968_36445#" 200 5800,258 "distortionUnit_1.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9832 36445 9833 36446 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ua[0]" 400 0 "a_7710_36445#" 200 5800,258 "a_7968_36445#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9574 36445 9575 36446 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ua[0]" 400 0 "a_7968_36445#" 200 5800,258 "a_7710_36445#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9316 36445 9317 36446 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.myOpamp_0.INn" 400 0 "distortionUnit_1.tgate_1.IN" 200 5800,258 "a_7968_36445#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 9058 36445 9059 36446 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.myOpamp_0.INn" 400 0 "a_7968_36445#" 200 5800,258 "distortionUnit_1.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8800 36445 8801 36446 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ua[0]" 400 0 "a_7710_36445#" 200 5800,258 "a_7968_36445#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8542 36445 8543 36446 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ua[0]" 400 0 "a_7968_36445#" 200 5800,258 "a_7710_36445#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8284 36445 8285 36446 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.myOpamp_0.INn" 400 0 "distortionUnit_1.tgate_1.IN" 200 5800,258 "a_7968_36445#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8026 36445 8027 36446 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_1.myOpamp_0.INn" 400 0 "a_7968_36445#" 200 5800,258 "distortionUnit_1.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 7768 36445 7769 36446 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "ua[0]" 400 0 "a_7710_36445#" 200 5800,258 "a_7968_36445#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 7510 36445 7511 36446 l=200 w=200 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 400 0 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" 200 11600,516 "a_7710_36445#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 10348 36872 10349 36873 l=200 w=200 "VPWR" "VPWR" 400 0 "distortionUnit_1.tgate_1.IN" 200 5800,258 "VPWR" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 10090 36872 10091 36873 l=200 w=200 "VPWR" "a_7710_36445#" 400 0 "VPWR" 200 5800,258 "distortionUnit_1.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9832 36872 9833 36873 l=200 w=200 "VPWR" "a_7710_36445#" 400 0 "a_7710_36445#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9574 36872 9575 36873 l=200 w=200 "VPWR" "a_7710_36445#" 400 0 "VPWR" 200 5800,258 "a_7710_36445#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9316 36872 9317 36873 l=200 w=200 "VPWR" "a_7710_36445#" 400 0 "distortionUnit_1.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 9058 36872 9059 36873 l=200 w=200 "VPWR" "a_7710_36445#" 400 0 "VPWR" 200 5800,258 "distortionUnit_1.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8800 36872 8801 36873 l=200 w=200 "VPWR" "a_7710_36445#" 400 0 "a_7710_36445#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8542 36872 8543 36873 l=200 w=200 "VPWR" "a_7710_36445#" 400 0 "VPWR" 200 5800,258 "a_7710_36445#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8284 36872 8285 36873 l=200 w=200 "VPWR" "a_7710_36445#" 400 0 "distortionUnit_1.tgate_1.IN" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8026 36872 8027 36873 l=200 w=200 "VPWR" "a_7710_36445#" 400 0 "VPWR" 200 5800,258 "distortionUnit_1.tgate_1.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 7768 36872 7769 36873 l=200 w=200 "VPWR" "a_7710_36445#" 400 0 "a_7710_36445#" 200 5800,258 "VPWR" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 7510 36872 7511 36873 l=200 w=200 "VPWR" "VPWR" 400 0 "VPWR" 200 11600,516 "a_7710_36445#" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 6162 35990 6163 35991 l=5190 "distortionUnit_0.sky130_fd_sc_hd__inv_8_0.VNB" "a_6162_35990#" 0 0 "VPWR" 70 30240,1004 "a_6866_35990#" 70 30240,1004
+device msubckt sky130_fd_pr__pfet_01v8 25965 38229 25966 38230 l=200 w=200 "VPWR" "ui_in[1]" 400 0 "distortionUnit_3.IN" 200 5800,258 "distortionUnit_2.IN" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 25707 38229 25708 38230 l=200 w=200 "VPWR" "ui_in[1]" 400 0 "distortionUnit_2.IN" 200 11600,516 "distortionUnit_3.IN" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 13151 38073 13152 38074 l=200 w=200 "VPWR" "ui_in[0]" 400 0 "distortionUnit_2.IN" 200 5800,258 "ua[0]" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 12893 38073 12894 38074 l=200 w=200 "VPWR" "ui_in[0]" 400 0 "ua[0]" 200 11600,516 "distortionUnit_2.IN" 200 5800,258

@@ -1,0 +1,16 @@
+* NGSPICE file created from testInverter.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_7ZREUJ a_n73_n69# a_n33_n157# a_15_n69# VSUBS
+X0 a_15_n69# a_n33_n157# a_n73_n69# VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_QNPHNH a_n35_n162# a_n93_n136# w_n129_n198# a_35_n136#
+X0 a_35_n136# a_n35_n162# a_n93_n136# w_n129_n198# sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.35
+.ends
+
+*.subckt testInverter IN VDD VSS OUT
+Xsky130_fd_pr__nfet_01v8_7ZREUJ_0 VSS IN OUT VSUBS sky130_fd_pr__nfet_01v8_7ZREUJ
+Xsky130_fd_pr__pfet_01v8_QNPHNH_0 IN VDD sky130_fd_sc_hd__tap_1_0/VPB OUT sky130_fd_pr__pfet_01v8_QNPHNH
+*.ends
+
+.end
